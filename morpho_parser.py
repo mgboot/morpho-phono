@@ -34,7 +34,7 @@ def parse(sentence):
             continue
         word = token.text.lower()
         lemma = token.lemma_.lower()
-        word_phones = get_phonemes(word)
+        word_phones = get_phonemes(word, tag=token.tag_)
         lemma_phones = get_phonemes(lemma)
         morphemes = decompose_morphemes(word_phones, lemma_phones, token.pos_, token.tag_)
         results.append({"word": token.text, "morphemes": morphemes})

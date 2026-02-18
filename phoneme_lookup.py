@@ -5,6 +5,7 @@ import re
 import urllib.request
 from pathlib import Path
 
+import yaml
 from g2p_en import G2p
 
 logger = logging.getLogger(__name__)
@@ -70,13 +71,61 @@ def _load_cmudict(url=_CMUDICT_URL, cache_path=_CMUDICT_CACHE):
 
 cmu = _load_cmudict()
 
+# ── Heteronym disambiguation ────────────────────────────────────────────────
+# Loaded from heteronyms.yaml — see that file and extract_heteronyms.py for
+# details.  Only entries whose ``tags`` list is non-empty are used.
 
-def get_phonemes(word):
+_HETERONYMS_PATH = Path(__file__).with_name("heteronyms.yaml")
+
+
+def _load_heteronyms(path=_HETERONYMS_PATH):
+    """Load the heteronym table from YAML.
+
+    Returns a dict mapping lowercase words to lists of
+    ``(tag_frozenset, phone_list)`` tuples.  Entries with empty tags are
+    skipped (they are uncurated placeholders for the user to fill in).
+    """
+    if not path.exists():
+        logger.warning("Heteronym table not found at %s", path)
+        return {}
+    with open(path, encoding="utf-8") as f:
+        raw = yaml.safe_load(f) or {}
+    table = {}
+    for word, entries in raw.items():
+        resolved = []
+        for entry in entries:
+            tags = entry.get("tags", [])
+            if not tags:
+                continue
+            phones = entry["phones"].split()
+            resolved.append((frozenset(tags), phones))
+        if resolved:
+            table[word.lower()] = resolved
+    return table
+
+
+_HETERONYM_TABLE = _load_heteronyms()
+
+
+def get_phonemes(word, tag=None):
     """Look up ARPAbet phonemes for a word.
 
     Checks the locally-cached CMU Dict first, then falls back to g2p_en.
+    When *tag* (a SpaCy fine-grained POS tag such as ``"NN"`` or ``"VBD"``)
+    is provided and the word has multiple CMU Dict entries, the heteronym
+    table is consulted to select the correct pronunciation.
     """
-    result = cmu.get(word.lower())
+    word_lower = word.lower()
+
+    # Heteronym disambiguation when a POS tag is available
+    if tag and word_lower in _HETERONYM_TABLE:
+        entries = cmu.get(word_lower)
+        if entries and len(entries) > 1:
+            for tag_set, phones in _HETERONYM_TABLE[word_lower]:
+                if tag in tag_set:
+                    return _apply_mergers(phones)
+
+    result = cmu.get(word_lower)
     if result:
         return result[0]
     # G2P fallback: g2p_en returns a mix of phonemes and spaces; filter to phonemes only
