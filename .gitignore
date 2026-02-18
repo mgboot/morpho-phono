@@ -1,6 +1,6 @@
 __pycache__/
 *.pyc
+.cmudict-0.7b
 
 # Legacy / scratch files
-morpho_parser_old.py
 components.ipynb

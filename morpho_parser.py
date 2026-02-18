@@ -1,27 +1,72 @@
 """Morphological parser that decomposes English words into morpheme phones.
 
 Takes an English sentence, performs POS tagging and lemmatisation with spaCy,
-looks up phonemes via the CMU Pronouncing Dictionary, then splits each word's
-phonemes into root + inflectional-suffix morphemes where applicable.
+looks up phonemes via the CMU Pronouncing Dictionary (downloaded directly from
+source), then splits each word's phonemes into root + inflectional-suffix
+morphemes where applicable.  Words not found in CMU Dict are handled by a
+g2p_en grapheme-to-phoneme fallback.
 
 Usage:
     python morpho_parser.py "The quick brown fox jumps over the lazy dog."
 """
 
 import sys
+import logging
+import urllib.request
 from pathlib import Path
 
 import yaml
 import spacy
-import nltk
-from nltk.corpus import cmudict
 from g2p_en import G2p
 
-nltk.download("cmudict", quiet=True)
+logger = logging.getLogger(__name__)
 
 nlp = spacy.load("en_core_web_md")
-cmu = cmudict.dict()
 g2p = G2p()
+
+# ── Load CMU Pronouncing Dictionary from source ─────────────────────────────
+
+_CMUDICT_URL = "https://raw.githubusercontent.com/Alexir/CMUdict/master/cmudict-0.7b"
+_CMUDICT_CACHE = Path(__file__).with_name(".cmudict-0.7b")
+
+
+def _load_cmudict(url=_CMUDICT_URL, cache_path=_CMUDICT_CACHE):
+    """Download and parse the CMU Pronouncing Dictionary from source.
+
+    The raw file is cached locally so subsequent runs skip the download.
+    Returns a dict mapping lowercase words to lists of phoneme lists.
+    """
+    if not cache_path.exists():
+        logger.info("Downloading CMU dict from %s …", url)
+        try:
+            urllib.request.urlretrieve(url, cache_path)
+        except (urllib.error.URLError, OSError) as exc:
+            raise RuntimeError(
+                f"Failed to download CMU dict from {url}. "
+                "Check your network connection or supply the file manually "
+                f"at {cache_path}."
+            ) from exc
+
+    cmu = {}
+    with open(cache_path, encoding="latin-1") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith(";;;"):
+                continue
+            parts = line.split("  ", 1)
+            if len(parts) != 2:
+                continue
+            word, phones_str = parts
+            # Strip variant markers like "(1)", "(2)"
+            if "(" in word:
+                word = word[: word.index("(")]
+            word = word.lower()
+            phones = phones_str.strip().split()
+            cmu.setdefault(word, []).append(phones)
+    return cmu
+
+
+cmu = _load_cmudict()
 
 # ── Load inflection rules from YAML ─────────────────────────────────────────
 
@@ -45,7 +90,10 @@ INFLECTION_RULES = _load_rules()
 
 
 def get_phonemes(word):
-    """Look up ARPAbet phonemes for a word. Falls back to g2p_en if not in CMU dict."""
+    """Look up ARPAbet phonemes for a word.
+
+    Checks the locally-cached CMU Dict first, then falls back to g2p_en.
+    """
     result = cmu.get(word.lower())
     if result:
         return result[0]
@@ -65,7 +113,6 @@ def decompose_morphemes(word_phones, lemma_phones, pos, tag):
     morpheme (irregular forms are tagged e.g. "VERB<PAST>").
     """
     word_str = " ".join(word_phones)
-    lemma_str = " ".join(lemma_phones)
 
     if word_phones == lemma_phones:
         return [(word_str, pos)]
@@ -86,7 +133,7 @@ def decompose_morphemes(word_phones, lemma_phones, pos, tag):
 
 
 def parse(sentence):
-    """Parse *sentence* and return a dict mapping each word to its morpheme list.
+    """Parse *sentence* and return a list of per-word morpheme breakdowns.
 
     Returns:
         list of dicts with keys ``word`` and ``morphemes``, where

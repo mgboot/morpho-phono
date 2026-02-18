@@ -1,6 +1,6 @@
 # Morpho Parser
 
-A morphological parser that decomposes English words into morpheme phones. It takes an English sentence, performs POS tagging and lemmatisation with [spaCy](https://spacy.io/), looks up phonemes via the [CMU Pronouncing Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict) (with a [g2p_en](https://github.com/Kyubyong/g2p) fallback for out-of-vocabulary words), then splits each word's phonemes into root + inflectional-suffix morphemes where applicable.
+A morphological parser that decomposes English words into morpheme phones. It takes an English sentence, performs POS tagging and lemmatisation with [spaCy](https://spacy.io/), looks up phonemes via the [CMU Pronouncing Dictionary](https://github.com/Alexir/CMUdict) (downloaded directly from source, with a [g2p_en](https://github.com/Kyubyong/g2p) fallback for out-of-vocabulary words), then splits each word's phonemes into root + inflectional-suffix morphemes where applicable.
 
 ## Setup
 
@@ -22,11 +22,11 @@ The          -> [('DH AH0', 'DET')]
 quick        -> [('K W IH1 K', 'ADJ')]
 brown        -> [('B R AW1 N', 'ADJ')]
 fox          -> [('F AA1 K S', 'NOUN')]
-jumps        -> [('JH AH1 M P', 'VERB'), ('S', 'PRES')]
+jumps        -> [('JH AH1 M P', 'VERB'), ('Z', 'PRES')]
 over         -> [('OW1 V ER0', 'ADP')]
 the          -> [('DH AH0', 'DET')]
 lazy         -> [('L EY1 Z IY0', 'ADJ')]
-dogs         -> [('D AO1 G', 'NOUN'), ('Z', 'PL')]
+dogs         -> [('D AA1 G Z', 'NOUN<PL>')]
 ```
 
 ## Project Structure
@@ -35,7 +35,7 @@ dogs         -> [('D AO1 G', 'NOUN'), ('Z', 'PL')]
 |------|-------------|
 | `morpho_parser.py` | Main parser — POS tagging, phoneme lookup, and morpheme decomposition |
 | `inflection_rules.yaml` | Inflection rules in editable YAML (see below) |
-| `requirements.txt` | Python dependencies: spaCy, NLTK, PyYAML, g2p-en |
+| `requirements.txt` | Python dependencies: spaCy, PyYAML, g2p-en |
 
 ## Editing Inflection Rules
 
@@ -65,3 +65,5 @@ Example rule:
 The parser tries each suffix in order. If stripping a suffix from the inflected word's phonemes yields the lemma's phonemes, it splits them into root + suffix morphemes. If a rule matches the POS/tag but no suffix cleanly strips, the word is marked as an irregular form (e.g. `VERB<PAST>`).
 
 Phoneme symbols follow the [ARPAbet](https://en.wikipedia.org/wiki/ARPABET) notation used by the CMU dictionary.
+
+The CMU dictionary file is downloaded from [Alexir/CMUdict](https://github.com/Alexir/CMUdict) on first run and cached locally as `.cmudict-0.7b`.

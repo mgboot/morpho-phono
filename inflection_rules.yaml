@@ -16,31 +16,31 @@
   tag: VBZ
   label: PRES
   suffixes:
-    - [Z]
-    - [S]
     - [IH0, Z]
     - [AH0, Z]
+    - [Z]
+    - [S]
 
 # Past tense: jumped → jump + /T/, played → play + /D/
 - pos: VERB
   tag: VBD
   label: PAST
   suffixes:
-    - [D]
-    - [T]
     - [IH0, D]
     - [AH0, D]
+    - [D]
+    - [T]
 
 # Past participle: broken → break + /N/, played → play + /D/
 - pos: VERB
   tag: VBN
   label: PAST_PTCP
   suffixes:
-    - [D]
-    - [T]
     - [IH0, D]
     - [AH0, D]
     - [AH0, N]
+    - [D]
+    - [T]
     - [N]
 
 # Present participle / gerund: jumping → jump + /ING/
@@ -50,6 +50,7 @@
   suffixes:
     - [IH0, NG]
     - [IH1, NG]
+    - [AH0, NG]
 
 # ── Nouns ────────────────────────────────────────────────────────────────────
 
@@ -58,20 +59,22 @@
   tag: NNS
   label: PL
   suffixes:
-    - [Z]
-    - [S]
     - [IH0, Z]
     - [AH0, Z]
+    - [Z]
+    - [S]
 
-# Possessive nouns
-- pos: NOUN
-  tag: NNP
-  label: POSS
+# Plural proper nouns: Americans → America + /Z/
+# (Possessives like "dog's" are tokenised by spaCy as separate 's tokens,
+#  so no possessive-suffix rule is needed here.)
+- pos: PROPN
+  tag: NNPS
+  label: PL
   suffixes:
-    - [Z]
-    - [S]
     - [IH0, Z]
     - [AH0, Z]
+    - [Z]
+    - [S]
 
 # ── Adjectives ───────────────────────────────────────────────────────────────
 
