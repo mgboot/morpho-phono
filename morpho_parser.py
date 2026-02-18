@@ -14,10 +14,20 @@ import sys
 
 import spacy
 
-from phoneme_lookup import get_phonemes
-from inflection import decompose_morphemes
+from phonology.phoneme_lookup import get_phonemes
+from morphology.inflection import decompose_morphemes
 
 nlp = spacy.load("en_core_web_md")
+
+# Map inflected Penn Treebank tags to their citation-form (base) tag so that
+# lemma phoneme lookups use the right heteronym variant — e.g. the lemma of
+# "read" (VBD) should resolve to base-verb VB → /riːd/, not past-tense /rɛd/.
+_LEMMA_TAG = {
+    "VBD": "VB", "VBN": "VB", "VBG": "VB", "VBZ": "VB", "VBP": "VB",
+    "NNS": "NN", "NNPS": "NNP",
+    "JJR": "JJ", "JJS": "JJ",
+    "RBR": "RB", "RBS": "RB",
+}
 
 
 def parse(sentence):
@@ -35,7 +45,7 @@ def parse(sentence):
         word = token.text.lower()
         lemma = token.lemma_.lower()
         word_phones = get_phonemes(word, tag=token.tag_)
-        lemma_phones = get_phonemes(lemma)
+        lemma_phones = get_phonemes(lemma, tag=_LEMMA_TAG.get(token.tag_, token.tag_))
         morphemes = decompose_morphemes(word_phones, lemma_phones, token.pos_, token.tag_)
         results.append({"word": token.text, "morphemes": morphemes})
     return results

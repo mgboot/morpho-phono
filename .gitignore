@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 .cmudict-0.7b
+phonology/.cmudict-0.7b
 
 # Legacy / scratch files
 components.ipynb

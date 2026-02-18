@@ -7,7 +7,7 @@
 # Variants with empty tags are uncurated and ignored at runtime.
 #
 # To regenerate uncurated entries from the CMU Dict:
-#     python extract_heteronyms.py
+#     python -m phonology.extract_heteronyms
 #
 # Tag groups for reference:
 #   Nouns:      NN, NNS, NNP, NNPS
@@ -208,6 +208,12 @@ wind:
   phones: "S EH1 M IY0 K OW1 L AH0 N"
 - tags: []
   phones: "S EH1 M IH0 K OW2 L AH0 N"
+
+True:
+- tags: []
+  phones: "AA1 N"
+- tags: []
+  phones: "AO1 N"
 
 a:
 - tags: []

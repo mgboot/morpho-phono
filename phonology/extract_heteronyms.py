@@ -7,7 +7,7 @@ curated entries (those with non-empty ``tags`` lists) are preserved;
 only new words are appended with empty tags for the user to fill in.
 
 Usage:
-    python extract_heteronyms.py
+    python -m phonology.extract_heteronyms
 """
 
 from pathlib import Path
@@ -28,7 +28,7 @@ _YAML_HEADER = """\
 # Variants with empty tags are uncurated and ignored at runtime.
 #
 # To regenerate uncurated entries from the CMU Dict:
-#     python extract_heteronyms.py
+#     python -m phonology.extract_heteronyms
 #
 # Tag groups for reference:
 #   Nouns:      NN, NNS, NNP, NNPS
@@ -43,7 +43,7 @@ def _parse_cmudict(path=_CMUDICT_CACHE):
     if not path.exists():
         raise FileNotFoundError(
             f"CMU dict cache not found at {path}. "
-            "Run phoneme_lookup.py once to download it."
+            "Run phonology.phoneme_lookup once to download it."
         )
     entries = {}
     with open(path, encoding="latin-1") as f:
@@ -82,6 +82,7 @@ _YAML_SAFE_KEY = re.compile(r"^[A-Za-z][A-Za-z0-9_'-]*$")
 
 def _format_key(word):
     """Quote a YAML key if it contains characters that need escaping."""
+    word = str(word)
     if _YAML_SAFE_KEY.match(word):
         return word
     return f'"{word}"'
@@ -91,7 +92,7 @@ def _write_yaml(data, path=_HETERONYMS_PATH):
     """Write the heteronym table as clean, hand-editable YAML."""
     curated = {}
     uncurated = {}
-    for word in sorted(data):
+    for word in sorted(data, key=str):
         entries = data[word]
         if any(e.get("tags") for e in entries):
             curated[word] = entries
@@ -106,7 +107,7 @@ def _write_yaml(data, path=_HETERONYMS_PATH):
                 "\n# ── Curated entries "
                 "──────────────────────────────────────────────────────────\n\n"
             )
-            for word in sorted(curated):
+            for word in sorted(curated, key=str):
                 f.write(f"{_format_key(word)}:\n")
                 for entry in curated[word]:
                     f.write(f"- tags: {_format_tags(entry.get('tags', []))}\n")
@@ -118,7 +119,7 @@ def _write_yaml(data, path=_HETERONYMS_PATH):
                 "# ── Uncurated entries (fill in tags to enable disambiguation) "
                 "────────────\n\n"
             )
-            for word in sorted(uncurated):
+            for word in sorted(uncurated, key=str):
                 f.write(f"{_format_key(word)}:\n")
                 for entry in uncurated[word]:
                     f.write("- tags: []\n")
