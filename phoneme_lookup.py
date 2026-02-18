@@ -1,6 +1,7 @@
 """Phoneme lookup via CMU Pronouncing Dictionary with g2p_en fallback."""
 
 import logging
+import re
 import urllib.request
 from pathlib import Path
 
@@ -9,6 +10,21 @@ from g2p_en import G2p
 logger = logging.getLogger(__name__)
 
 g2p = G2p()
+
+# ── Phoneme mergers applied at load time ─────────────────────────────────────
+
+# Caught–cot merger: collapse AO → AA (with stress digit preserved).
+# Set to False to maintain the AO / AA distinction.
+COT_CAUGHT_MERGER = True
+
+_MERGER_RE = re.compile(r"^AO(\d?)$")
+
+
+def _apply_mergers(phones):
+    """Apply active phoneme mergers to a list of ARPAbet phones."""
+    if COT_CAUGHT_MERGER:
+        phones = [_MERGER_RE.sub(r"AA\1", p) for p in phones]
+    return phones
 
 # ── Load CMU Pronouncing Dictionary from source ─────────────────────────────
 
@@ -47,7 +63,7 @@ def _load_cmudict(url=_CMUDICT_URL, cache_path=_CMUDICT_CACHE):
             if "(" in word:
                 word = word[: word.index("(")]
             word = word.lower()
-            phones = phones_str.strip().split()
+            phones = _apply_mergers(phones_str.strip().split())
             cmu.setdefault(word, []).append(phones)
     return cmu
 
@@ -65,7 +81,7 @@ def get_phonemes(word):
         return result[0]
     # G2P fallback: g2p_en returns a mix of phonemes and spaces; filter to phonemes only
     raw = g2p(word)
-    phones = [p for p in raw if p.strip()]
+    phones = _apply_mergers([p for p in raw if p.strip()])
     if phones:
         return phones
     return ["N/A"]
