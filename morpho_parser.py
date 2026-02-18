@@ -15,11 +15,13 @@ import yaml
 import spacy
 import nltk
 from nltk.corpus import cmudict
+from g2p_en import G2p
 
 nltk.download("cmudict", quiet=True)
 
 nlp = spacy.load("en_core_web_md")
 cmu = cmudict.dict()
+g2p = G2p()
 
 # ── Load inflection rules from YAML ─────────────────────────────────────────
 
@@ -40,6 +42,19 @@ def _load_rules(path=_RULES_PATH):
 INFLECTION_RULES = _load_rules()
 
 # ── Core logic ───────────────────────────────────────────────────────────────
+
+
+def get_phonemes(word):
+    """Look up ARPAbet phonemes for a word. Falls back to g2p_en if not in CMU dict."""
+    result = cmu.get(word.lower())
+    if result:
+        return result[0]
+    # G2P fallback: g2p_en returns a mix of phonemes and spaces; filter to phonemes only
+    raw = g2p(word)
+    phones = [p for p in raw if p.strip()]
+    if phones:
+        return phones
+    return ["N/A"]
 
 
 def decompose_morphemes(word_phones, lemma_phones, pos, tag):
@@ -84,8 +99,8 @@ def parse(sentence):
             continue
         word = token.text.lower()
         lemma = token.lemma_.lower()
-        word_phones = cmu.get(word, [["N/A"]])[0]
-        lemma_phones = cmu.get(lemma, [["N/A"]])[0]
+        word_phones = get_phonemes(word)
+        lemma_phones = get_phonemes(lemma)
         morphemes = decompose_morphemes(word_phones, lemma_phones, token.pos_, token.tag_)
         results.append({"word": token.text, "morphemes": morphemes})
     return results

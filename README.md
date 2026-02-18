@@ -1,6 +1,6 @@
 # Morpho Parser
 
-A morphological parser that decomposes English words into morpheme phones. It takes an English sentence, performs POS tagging and lemmatisation with [spaCy](https://spacy.io/), looks up phonemes via the [CMU Pronouncing Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict), then splits each word's phonemes into root + inflectional-suffix morphemes where applicable.
+A morphological parser that decomposes English words into morpheme phones. It takes an English sentence, performs POS tagging and lemmatisation with [spaCy](https://spacy.io/), looks up phonemes via the [CMU Pronouncing Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict) (with a [g2p_en](https://github.com/Kyubyong/g2p) fallback for out-of-vocabulary words), then splits each word's phonemes into root + inflectional-suffix morphemes where applicable.
 
 ## Setup
 
@@ -35,7 +35,7 @@ dogs         -> [('D AO1 G', 'NOUN'), ('Z', 'PL')]
 |------|-------------|
 | `morpho_parser.py` | Main parser — POS tagging, phoneme lookup, and morpheme decomposition |
 | `inflection_rules.yaml` | Inflection rules in editable YAML (see below) |
-| `requirements.txt` | Python dependencies: spaCy, NLTK, PyYAML |
+| `requirements.txt` | Python dependencies: spaCy, NLTK, PyYAML, g2p-en |
 
 ## Editing Inflection Rules
 
