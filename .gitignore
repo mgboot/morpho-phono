@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# Legacy / scratch files
+morpho_parser_old.py
+components.ipynb

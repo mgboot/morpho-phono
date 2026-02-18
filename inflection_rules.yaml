@@ -1,0 +1,112 @@
+# Inflection rules for morphological decomposition
+#
+# Each rule matches a (pos, tag) pair and lists candidate suffix phonemes
+# that can be stripped from the inflected form to recover the root.
+#
+# Fields:
+#   pos    – spaCy coarse POS tag (VERB, NOUN, ADJ, ADV)
+#   tag    – spaCy fine-grained Penn Treebank tag
+#   label  – morpheme label assigned to the stripped suffix
+#   suffixes – list of candidate phoneme sequences (longest/most specific first)
+
+# ── Verbs ────────────────────────────────────────────────────────────────────
+
+# 3rd-person singular present: jumps → jump + /S/, flies → fly + /Z/
+- pos: VERB
+  tag: VBZ
+  label: PRES
+  suffixes:
+    - [Z]
+    - [S]
+    - [IH0, Z]
+    - [AH0, Z]
+
+# Past tense: jumped → jump + /T/, played → play + /D/
+- pos: VERB
+  tag: VBD
+  label: PAST
+  suffixes:
+    - [D]
+    - [T]
+    - [IH0, D]
+    - [AH0, D]
+
+# Past participle: broken → break + /N/, played → play + /D/
+- pos: VERB
+  tag: VBN
+  label: PAST_PTCP
+  suffixes:
+    - [D]
+    - [T]
+    - [IH0, D]
+    - [AH0, D]
+    - [AH0, N]
+    - [N]
+
+# Present participle / gerund: jumping → jump + /ING/
+- pos: VERB
+  tag: VBG
+  label: PROG
+  suffixes:
+    - [IH0, NG]
+    - [IH1, NG]
+
+# ── Nouns ────────────────────────────────────────────────────────────────────
+
+# Plural nouns: dogs → dog + /Z/, cats → cat + /S/
+- pos: NOUN
+  tag: NNS
+  label: PL
+  suffixes:
+    - [Z]
+    - [S]
+    - [IH0, Z]
+    - [AH0, Z]
+
+# Possessive nouns
+- pos: NOUN
+  tag: NNP
+  label: POSS
+  suffixes:
+    - [Z]
+    - [S]
+    - [IH0, Z]
+    - [AH0, Z]
+
+# ── Adjectives ───────────────────────────────────────────────────────────────
+
+# Comparative adjectives: taller → tall + /ER/
+- pos: ADJ
+  tag: JJR
+  label: COMP
+  suffixes:
+    - [ER0]
+    - [ER1]
+    - [R]
+
+# Superlative adjectives: tallest → tall + /EST/
+- pos: ADJ
+  tag: JJS
+  label: SUPER
+  suffixes:
+    - [AH0, S, T]
+    - [IH0, S, T]
+
+# ── Adverbs ──────────────────────────────────────────────────────────────────
+
+# Comparative adverbs: faster → fast + /ER/
+- pos: ADV
+  tag: RBR
+  label: COMP
+  suffixes:
+    - [ER0]
+    - [ER1]
+    - [R]
+
+# Superlative adverbs: fastest → fast + /EST/
+- pos: ADV
+  tag: RBS
+  label: SUPER
+  suffixes:
+    - [AH0, S, T]
+    - [IH0, S, T]
