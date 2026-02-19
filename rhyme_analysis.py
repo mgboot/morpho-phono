@@ -84,6 +84,32 @@ _VOWEL_CLASS = {
     "AY": "DIPH_AY", "AW": "DIPH_AW", "OY": "DIPH_OY",
 }
 
+# Vowel classes that are one phonological step apart (height or backness).
+# Used to accept historical / dialectal near-rhymes (e.g. Pope's
+# "pierce"/"universe", "home"/"come", "food"/"blood").
+_VOWEL_NEIGHBORS = {
+    frozenset({"FRONT_HI", "FRONT_MD"}),   # IY/IH ↔ EY/EH
+    frozenset({"FRONT_HI", "CENTRAL"}),    # IH ↔ ER  (pierce / verse)
+    frozenset({"FRONT_MD", "FRONT_LO"}),   # EY/EH ↔ AE
+    frozenset({"FRONT_MD", "CENTRAL"}),    # EH ↔ AH/ER
+    frozenset({"FRONT_LO", "CENTRAL"}),    # AE ↔ AH
+    frozenset({"FRONT_LO", "BACK_LO"}),    # AE ↔ AA  (bath broadening)
+    frozenset({"CENTRAL", "BACK_LO"}),     # AH ↔ AA
+    frozenset({"CENTRAL", "BACK_MD"}),     # AH ↔ OW/AO  (come / home)
+    frozenset({"CENTRAL", "BACK_HI"}),     # AH ↔ UW/UH  (blood / food)
+    frozenset({"BACK_HI", "BACK_MD"}),     # UW/UH ↔ OW/AO
+    frozenset({"BACK_MD", "BACK_LO"}),     # OW/AO ↔ AA
+    frozenset({"DIPH_AY", "FRONT_HI"}),    # AY ↔ IY/IH  (why / deity)
+    frozenset({"DIPH_AW", "BACK_MD"}),     # AW ↔ OW     (now / know)
+    frozenset({"DIPH_OY", "BACK_MD"}),     # OY ↔ AO/OW
+}
+
+
+def _vowels_nearby(a, b):
+    """True if two vowels are in neighbouring equivalence classes."""
+    ca, cb = _soundex(a), _soundex(b)
+    return frozenset({ca, cb}) in _VOWEL_NEIGHBORS
+
 
 def _soundex(phone):
     b = _base(phone)
@@ -231,6 +257,7 @@ def _find_common_rime(tails):
 
     best_n = 0
     is_fuzzy = False
+    found_primary = False          # all lines had stress 1 on some vowel
 
     for n in range(1, min_vowels + 1):
         # ── vowel nuclei must match ──
@@ -238,9 +265,20 @@ def _find_common_rime(tails):
         ref = vphs[0]
         exact = all(_base(ref) == _base(v) for v in vphs[1:])
         fuzzy = all(_soundex(ref) == _soundex(v) for v in vphs[1:])
-        if not exact and not fuzzy:
+        nearby = all(
+            _soundex(ref) == _soundex(v) or _vowels_nearby(ref, v)
+            for v in vphs[1:]
+        )
+        if not exact and not fuzzy and not nearby:
             break
         step_fuzzy = not exact
+
+        # Once we've found a syllable with primary stress in every line,
+        # don't extend the rime further unless the next syllable also
+        # carries primary stress in every line.
+        all_primary = all(_stress(v) == "1" for v in vphs)
+        if found_primary and not all_primary:
+            break
 
         # ── consonant material must be compatible ──
         if n == 1:
@@ -263,8 +301,15 @@ def _find_common_rime(tails):
         if not c_ok:
             break
 
+        # Don't accept or extend on weak evidence: adjacent-class vowels
+        # plus fuzzy consonants is too tenuous even for single-syllable rimes.
+        if not exact and not fuzzy and c_fuzzy:
+            break
+
         if step_fuzzy or c_fuzzy:
             is_fuzzy = True
+        if all_primary:
+            found_primary = True
         best_n = n
 
     if best_n == 0:
