@@ -1,4 +1,4 @@
-"""Analyse rhyming couplets in Pope's Essay on Man.
+"""Analyze rhyming couplets in Pope's Essay on Man.
 
 Reads essay-on-man.txt, pairs consecutive lines as heroic couplets
 (AABB rhyme scheme), runs each pair through rhyme_analysis.analyse(),
