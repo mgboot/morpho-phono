@@ -71,6 +71,20 @@ def _load_cmudict(url=_CMUDICT_URL, cache_path=_CMUDICT_CACHE):
 
 cmu = _load_cmudict()
 
+# ── Contraction suffixes ────────────────────────────────────────────────────
+# spaCy splits contractions (e.g. "wouldn't" → "would" + "n't"), but the
+# suffix tokens are absent from CMU Dict or mis-mapped (e.g. "'s" → letter
+# name).  These hand-curated entries are checked before the CMU/g2p path.
+_CONTRACTION_PHONES = {
+    "n't": ["AH0", "N", "T"],
+    "'ll": ["AH0", "L"],
+    "'re": ["ER0"],
+    "'ve": ["AH0", "V"],
+    "'d":  ["AH0", "D"],
+    "'s":  ["Z"],
+    "'m":  ["AH0", "M"],
+}
+
 # ── Heteronym disambiguation ────────────────────────────────────────────────
 # Loaded from heteronyms.yaml — see that file and extract_heteronyms.py for
 # details.  Only entries whose ``tags`` list is non-empty are used.
@@ -116,6 +130,10 @@ def get_phonemes(word, tag=None):
     table is consulted to select the correct pronunciation.
     """
     word_lower = word.lower()
+
+    # Contraction suffixes that spaCy splits off
+    if word_lower in _CONTRACTION_PHONES:
+        return list(_CONTRACTION_PHONES[word_lower])
 
     # Heteronym disambiguation when a POS tag is available
     if tag and word_lower in _HETERONYM_TABLE:
