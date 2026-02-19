@@ -1,0 +1,653 @@
+couplet,line1_num,line2_num,line1_text,line2_text,rime_phones,rime_ipa,fuzzy,line1_rhyme_words,line2_rhyme_words,line1_rime_morphemes,line2_rime_morphemes,line1_morpheme_count,line2_morpheme_count
+1,1,2,"Awake, my St. John! leave all meaner things","To low ambition, and the pride of kings.",IH1 NG Z,ɪŋz,False,things,kings,NOUN(things) + PL(things),NOUN(kings) + PL(kings),2,2
+2,3,4,Let us (since life can little more supply,Than just to look about us and to die),AY1,aɪ,False,supply,die,NOUN(supply),VERB(die),1,1
+3,5,6,Expatiate free o'er all this scene of man;,A mighty maze! but not without a plan;,AE1 N,æn,False,man,plan,NOUN(man),NOUN(plan),1,1
+4,7,8,"A wild, where weeds and flowers promiscuous shoot;",Or garden tempting with forbidden fruit.,UW1 T,ut,False,shoot,fruit,NOUN(shoot),NOUN(fruit),1,1
+5,9,10,"Together let us beat this ample field,","Try what the open, what the covert yield;",IY1 L D,ild,False,field,yield,NOUN(field),NOUN(yield),1,1
+6,11,12,"The latent tracts, the giddy heights, explore","Of all who blindly creep, or sightless soar;",AA1 R,ɑɹ,False,explore,soar,VERB(explore),VERB(soar),1,1
+7,13,14,"Eye Nature's walks, shoot Folly as it flies,",And catch the manners living as they rise;,AY1 Z,aɪz,False,flies,rise,VERB(flies) + PRES(flies),VERB(rise),2,1
+8,15,16,"Laugh where we must, be candid where we can;",But vindicate the ways of God to man.,AE1 N,æn,False,can,man,AUX(can),NOUN(man),1,1
+9,17,18,"I.  Say first, of God above, or man below","What can we reason, but from what we know?",OW1,oʊ,False,below,know,ADP(below),VERB(know),1,1
+10,19,20,"Of man, what see we but his station here,","From which to reason, or to which refer?",IY1 R,iɹ,True,here,refer,ADV(here),VERB(refer),1,1
+11,21,22,"Through worlds unnumbered though the God be known,",'Tis ours to trace Him only in our own.,OW1 N,oʊn,False,known,own,VERB(known) + PAST_PTCP(known),ADJ(own),2,1
+12,23,24,"He, who through vast immensity can pierce,","See worlds on worlds compose one universe,",IH1 R S,ɪɹs,True,pierce,universe,VERB(pierce),NOUN(universe),1,1
+13,25,26,"Observe how system into system runs,","What other planets circle other suns,",AH1 N Z,ʌnz,False,runs,suns,NOUN(runs) + PL(runs),NOUN(suns) + PL(suns),2,2
+14,27,28,"What varied being peoples every star,",May tell why Heaven has made us as we are.,AA1 R,ɑɹ,False,star,are,NOUN(star),AUX(are),1,1
+15,29,30,"But of this frame, the bearings, and the ties,","The strong connections, nice dependencies,",AY1 Z,aɪz,True,ties,dependencies,NOUN(ties) + PL(ties),NOUN(dependencies) + PL(dependencies),2,2
+16,31,32,"Gradations just, has thy pervading soul",Looked through? or can a part contain the whole?,OW1 L,oʊl,False,soul,whole,NOUN(soul),NOUN(whole),1,1
+17,33,34,"Is the great chain, that draws all to agree,","And drawn supports, upheld by God, or thee?",IY1,i,False,agree,thee,VERB(agree),NOUN(thee),1,1
+18,35,36,"II.  Presumptuous man! the reason wouldst thou find,","Why formed so weak, so little, and so blind?",AY1 N D,aɪnd,False,find,blind,VERB(find),ADJ(blind),1,1
+19,37,38,"First, if thou canst, the harder reason guess,","Why formed no weaker, blinder, and no less;",EH1 S,ɛs,False,guess,less,VERB(guess),ADJ(less),1,1
+20,39,40,"Ask of thy mother earth, why oaks are made",Taller or stronger than the weeds they shade?,EY1 D,eɪd,False,made,shade,VERB<PAST_PTCP>(made),VERB(shade),1,1
+21,41,42,"Or ask of yonder argent fields above,",Why Jove's satellites are less than Jove?,AH1 V,ʌv,True,above,Jove,ADV(above),PROPN(Jove),1,1
+22,43,44,"Of systems possible, if 'tis confest","That wisdom infinite must form the best,",IH0 S T,ɪst,True,confest,best,SUPER(confest),ADJ<SUPER>(best),1,1
+23,45,46,"Where all must full or not coherent be,","And all that rises, rise in due degree;",IY1,i,False,be,degree,AUX(be),NOUN(degree),1,1
+24,47,48,"Then in the scale of reasoning life, 'tis plain,","There must be, somewhere, such a rank as man:",EY1 N,eɪn,True,plain,man,ADJ(plain),NOUN(man),1,1
+25,49,50,And all the question (wrangle e'er so long),"Is only this, if God has placed him wrong?",AA1 NG,ɑŋ,False,long,wrong,ADV(long),ADJ(wrong),1,1
+26,51,52,"Respecting man, whatever wrong we call,","May, must be right, as relative to all.",AA1 L,ɑl,False,call,all,VERB(call),PRON(all),1,1
+27,53,54,"In human works, though laboured on with pain,",A thousand movements scarce one purpose gain;,EY1 N,eɪn,False,pain,gain,NOUN(pain),NOUN(gain),1,1
+28,55,56,In God's one single can its end produce;,Yet serves to second too some other use.,UW0 S,us,False,produce,use,NOUN(produce),NOUN(use),1,1
+29,57,58,"So man, who here seems principal alone,","Perhaps acts second to some sphere unknown,",OW1 N,oʊn,False,alone,unknown,ADV(alone),ADJ(unknown),1,1
+30,59,60,"Touches some wheel, or verges to some goal;","'Tis but a part we see, and not a whole.",OW1 L,oʊl,False,goal,whole,NOUN(goal),NOUN(whole),1,1
+31,61,62,When the proud steed shall know why man restrains,"His fiery course, or drives him o'er the plains:",EY1 N Z,eɪnz,False,restrains,plains,VERB(restrains) + PRES(restrains),NOUN(plains) + PL(plains),2,2
+32,63,64,"When the dull ox, why now he breaks the clod,","Is now a victim, and now Egypt's god:",AA1 D,ɑd,False,clod,god,NOUN(clod),NOUN(god),1,1
+33,65,66,Then shall man's pride and dulness comprehend,"His actions', passions', being's, use and end;",EH1 N D,ɛnd,False,comprehend,end,VERB(comprehend),NOUN(end),1,1
+34,67,68,"Why doing, suffering, checked, impelled; and why","This hour a slave, the next a deity.",AY1,aɪ,True,why,deity,SCONJ(why),NOUN(deity),1,1
+35,69,70,"Then say not man's imperfect, Heaven in fault;",Say rather man's as perfect as he ought:,AA1 L T,ɑlt,True,fault,ought,NOUN(fault),AUX(ought),1,1
+36,71,72,His knowledge measured to his state and place;,"His time a moment, and a point his space.",EY1 S,eɪs,False,place,space,NOUN(place),NOUN(space),1,1
+37,73,74,"If to be perfect in a certain sphere,","What matter, soon or late, or here or there?",IH1 R,ɪɹ,True,sphere,there,NOUN(sphere),ADV(there),1,1
+38,75,76,"The blest to-day is as completely so,",As who began a thousand years ago.,OW1,oʊ,False,so,ago,ADV(so),ADV(ago),1,1
+39,77,78,"III.  Heaven from all creatures hides the book of Fate,","All but the page prescribed, their present state:",EY1 T,eɪt,False,Fate,state,PROPN(Fate),NOUN(state),1,1
+40,79,80,"From brutes what men, from men what spirits know:",Or who could suffer being here below?,OW1,oʊ,False,know,below,VERB(know),ADV(below),1,1
+41,81,82,"The lamb thy riot dooms to bleed to-day,","Had he thy reason, would he skip and play?",EY1,eɪ,False,day,play,NOUN(day),VERB(play),1,1
+42,83,84,"Pleased to the last, he crops the flowery food,",And licks the hand just raised to shed his blood.,UW1 D,ud,True,food,blood,NOUN(food),NOUN(blood),1,1
+43,85,86,"Oh, blindness to the future! kindly given,","That each may fill the circle, marked by Heaven:",IH1 V AH0 N,ɪvən,True,given,Heaven,VERB(given) + PAST_PTCP(given),PROPN(Heaven),2,1
+44,87,88,"Who sees with equal eye, as God of all,","A hero perish, or a sparrow fall,",AA1 L,ɑl,False,all,fall,PRON(all),NOUN(fall),1,1
+45,89,90,"Atoms or systems into ruin hurled,","And now a bubble burst, and now a world.",ER1 L D,ɝld,False,hurled,world,VERB(hurled) + PAST_PTCP(hurled),NOUN(world),2,1
+46,91,92,"Hope humbly, then; with trembling pinions soar;",Wait the great teacher Death; and God adore.,AA1 R,ɑɹ,False,soar,adore,VERB(soar),VERB(adore),1,1
+47,93,94,"What future bliss, He gives not thee to know,",But gives that hope to be thy blessing now.,OW1,oʊ,True,know,now,VERB(know),ADV(now),1,1
+48,95,96,Hope springs eternal in the human breast:,"Man never is, but always to be blest:",EH1 S T,ɛst,False,breast,blest,NOUN(breast),ADJ<SUPER>(blest),1,1
+49,97,98,"The soul, uneasy and confined from home,",Rests and expatiates in a life to come.,OW1 M,oʊm,True,home,come,NOUN(home),VERB(come),1,1
+50,99,100,"Lo, the poor Indian! whose untutored mind","Sees God in clouds, or hears Him in the wind;",AY1 N D,aɪnd,True,mind,wind,NOUN(mind),NOUN(wind),1,1
+51,101,102,"His soul, proud science never taught to stray","Far as the solar walk, or milky way;",EY1,eɪ,False,stray,way,VERB(stray),NOUN(way),1,1
+52,103,104,"Yet simple Nature to his hope has given,","Behind the cloud-topped hill, an humbler heaven;",IH1 V AH0 N,ɪvən,True,given,heaven,VERB(given) + PAST_PTCP(given),NOUN(heaven),2,1
+53,105,106,"Some safer world in depth of woods embraced,","Some happier island in the watery waste,",EY1 S D,eɪsd,True,embraced,waste,VERB(embraced) + PAST(embraced),NOUN(waste),2,1
+54,107,108,"Where slaves once more their native land behold,","No fiends torment, no Christians thirst for gold.",OW1 L D,oʊld,False,behold,gold,ADV(behold),NOUN(gold),1,1
+55,109,110,"To be, contents his natural desire,","He asks no angel's wing, no seraph's fire;",AY1 ER0,aɪɚ,False,desire,fire,NOUN(desire),NOUN(fire),1,1
+56,111,112,"But thinks, admitted to that equal sky,",His faithful dog shall bear him company.,AY1,aɪ,True,sky,company,NOUN(sky),NOUN(company),1,1
+57,113,114,"IV.  Go, wiser thou! and, in thy scale of sense,",Weigh thy opinion against providence;,EH1 N S,ɛns,True,sense,providence,NOUN(sense),NOUN(providence),1,1
+58,115,116,"Call imperfection what thou fanciest such,","Say, here He gives too little, there too much;",AH1 CH,ʌtʃ,False,such,much,ADJ(such),ADV(much),1,1
+59,117,118,"Destroy all creatures for thy sport or gust,","Yet cry, if man's unhappy, God's unjust;",AH1 S T,ʌst,False,gust,unjust,NOUN(gust),ADJ(unjust),1,1
+60,119,120,"If man alone engross not Heaven's high care,","Alone made perfect here, immortal there:",EH1 R,ɛɹ,False,care,there,NOUN(care),ADV(there),1,1
+61,121,122,"Snatch from His hand the balance and the rod,","Re-judge His justice, be the God of God.",AA1 D,ɑd,False,rod,God,NOUN(rod),PROPN(God),1,1
+62,123,124,"In pride, in reasoning pride, our error lies;","All quit their sphere, and rush into the skies.",AY1 Z,aɪz,False,lies,skies,VERB(lies) + PRES(lies),NOUN(skies) + PL(skies),2,2
+63,125,126,"Pride still is aiming at the blest abodes,","Men would be angels, angels would be gods.",OW1 D Z,oʊdz,True,abodes,gods,NOUN(abodes) + PL(abodes),NOUN(gods) + PL(gods),2,2
+64,127,128,"Aspiring to be gods, if angels fell,","Aspiring to be angels, men rebel:",EH1 L,ɛl,False,fell,rebel,VERB<PAST>(fell),VERB(rebel),1,1
+65,129,130,And who but wishes to invert the laws,"Of order, sins against the Eternal Cause.",AA1 Z,ɑz,False,laws,Cause,NOUN(laws) + PL(laws),PROPN(Cause),2,1
+66,131,132,"V.  Ask for what end the heavenly bodies shine,","Earth for whose use?  Pride answers, ""'Tis for mine:",AY1 N,aɪn,False,shine,mine,VERB(shine),NOUN(mine),1,1
+67,133,134,"For me kind Nature wakes her genial power,","Suckles each herb, and spreads out every flower;",AW1 ER0,aʊɚ,False,power,flower,NOUN(power),NOUN(flower),1,1
+68,135,136,"Annual for me, the grape, the rose renew","The juice nectareous, and the balmy dew;",UW1,u,False,renew,dew,NOUN(renew),NOUN(dew),1,1
+69,137,138,"For me, the mine a thousand treasures brings;","For me, health gushes from a thousand springs;",IH1 NG Z,ɪŋz,False,brings,springs,VERB(brings) + PRES(brings),NOUN(springs) + PL(springs),2,2
+70,139,140,"Seas roll to waft me, suns to light me rise;","My footstool earth, my canopy the skies.""",AY1 Z,aɪz,False,rise,skies,VERB(rise),NOUN(skies) + PL(skies),1,2
+71,141,142,"But errs not Nature from this gracious end,","From burning suns when livid deaths descend,",EH1 N D,ɛnd,False,end,descend,NOUN(end),VERB(descend),1,1
+72,143,144,"When earthquakes swallow, or when tempests sweep","Towns to one grave, whole nations to the deep?",IY1 P,ip,False,sweep,deep,VERB(sweep),ADJ(deep),1,1
+73,145,146,"""No, ('tis replied) the first Almighty Cause","Acts not by partial, but by general laws;",AA1 Z,ɑz,False,Cause,laws,PROPN(Cause),NOUN(laws) + PL(laws),1,2
+74,147,148,The exceptions few; some change since all began;,"And what created perfect?""--Why then man?",AE1 N,æn,False,began,man,VERB<PAST>(began),NOUN(man),1,1
+75,149,150,"If the great end be human happiness,",Then Nature deviates; and can man do less?,AH0 S,əs,True,happiness,less,NOUN(happiness),ADJ(less),1,1
+76,151,152,As much that end a constant course requires,"Of showers and sunshine, as of man's desires;",AY1 ER0 Z,aɪɚz,False,requires,desires,VERB<PRES>(requires),NOUN(desires) + PL(desires),1,2
+77,153,154,"As much eternal springs and cloudless skies,","As men for ever temperate, calm, and wise.",AY1 Z,aɪz,False,skies,wise,NOUN(skies) + PL(skies),ADJ(wise),2,1
+78,155,156,"If plagues or earthquakes break not Heaven's design,","Why then a Borgia, or a Catiline?",AY1 N,aɪn,False,design,Catiline,NOUN(design),PROPN(Catiline),1,1
+79,157,158,"Who knows but He, whose hand the lightning forms,","Who heaves old ocean, and who wings the storms;",AA1 R M Z,ɑɹmz,False,forms,storms,NOUN(forms) + PL(forms),NOUN(storms) + PL(storms),2,2
+80,159,160,"Pours fierce ambition in a Caesar's mind,",Or turns young Ammon loose to scourge mankind?,AY1 N D,aɪnd,False,mind,mankind,NOUN(mind),NOUN(mankind),1,1
+81,161,162,"From pride, from pride, our very reasoning springs;","Account for moral, as for natural things:",IH1 NG Z,ɪŋz,False,springs,things,NOUN(springs) + PL(springs),NOUN(things) + PL(things),2,2
+82,163,164,"Why charge we heaven in those, in these acquit?","In both, to reason right is to submit.",IH1 T,ɪt,False,acquit,submit,NOUN(acquit),VERB(submit),1,1
+83,165,166,"Better for us, perhaps, it might appear,","Were there all harmony, all virtue here;",IH1 R,ɪɹ,True,appear,here,VERB(appear),ADV(here),1,1
+84,167,168,That never air or ocean felt the wind;,That never passion discomposed the mind.,IH1 N D,ɪnd,True,wind,mind,NOUN(wind),NOUN(mind),1,1
+85,169,170,But all subsists by elemental strife;,And passions are the elements of life.,AY1 F,aɪf,False,strife,life,NOUN(strife),NOUN(life),1,1
+86,171,172,"The general order, since the whole began,","Is kept in nature, and is kept in man.",AE1 N,æn,False,began,man,VERB<PAST>(began),NOUN(man),1,1
+87,173,174,"VI.  What would this man?  Now upward will he soar,","And little less than angel, would be more;",AA1 R,ɑɹ,False,soar,more,VERB(soar),ADJ(more),1,1
+88,175,176,"Now looking downwards, just as grieved appears","To want the strength of bulls, the fur of bears",IH1 R Z,ɪɹz,True,appears,bears,VERB(appears) + PRES(appears),NOUN(bears) + PL(bears),2,2
+89,177,178,"Made for his use all creatures if he call,","Say what their use, had he the powers of all?",AA1 L,ɑl,False,call,all,VERB(call),PRON(all),1,1
+90,179,180,"Nature to these, without profusion, kind,","The proper organs, proper powers assigned;",AY1 N D,aɪnd,False,kind,assigned,ADJ(kind),VERB(assigned) + PAST_PTCP(assigned),1,2
+91,181,182,"Each seeming want compensated of course,","Here with degrees of swiftness, there of force;",AA1 R S,ɑɹs,False,course,force,NOUN(course),NOUN(force),1,1
+92,183,184,All in exact proportion to the state;,"Nothing to add, and nothing to abate.",EY1 T,eɪt,False,state,abate,NOUN(state),VERB(abate),1,1
+93,185,186,"Each beast, each insect, happy in its own:","Is Heaven unkind to man, and man alone?",OW1 N,oʊn,False,own,alone,ADJ(own),ADV(alone),1,1
+94,187,188,"Shall he alone, whom rational we call,","Be pleased with nothing, if not blessed with all?",AA1 L,ɑl,False,call,all,VERB(call),PRON(all),1,1
+95,189,190,The bliss of man (could pride that blessing find),Is not to act or think beyond mankind;,AY1 N D,aɪnd,False,find,mankind,VERB(find),NOUN(mankind),1,1
+96,191,192,"No powers of body or of soul to share,",But what his nature and his state can bear.,EH1 R,ɛɹ,False,share,bear,VERB(share),VERB(bear),1,1
+97,193,194,Why has not man a microscopic eye?,"For this plain reason, man is not a fly.",AY1,aɪ,False,eye,fly,NOUN(eye),NOUN(fly),1,1
+98,195,196,"Say what the use, were finer optics given,","To inspect a mite, not comprehend the heaven?",IH1 V AH0 N,ɪvən,True,given,heaven,VERB(given) + PAST_PTCP(given),PROPN(heaven),2,1
+99,197,198,"Or touch, if tremblingly alive all o'er,",To smart and agonize at every pore?,ER1,ɝ,True,o'er,pore,PROPN(o'er),NOUN(pore),1,1
+100,199,200,"Or quick effluvia darting through the brain,",Die of a rose in aromatic pain?,EY1 N,eɪn,False,brain,pain,NOUN(brain),NOUN(pain),1,1
+101,201,202,"If Nature thundered in his opening ears,","And stunned him with the music of the spheres,",IH1 R Z,ɪɹz,False,ears,spheres,NOUN<PL>(ears),NOUN(spheres) + PL(spheres),1,2
+102,203,204,How would he wish that Heaven had left him still,"The whispering zephyr, and the purling rill?",IH1 L,ɪl,False,still,rill,ADV(still),NOUN(rill),1,1
+103,205,206,"Who finds not Providence all good and wise,","Alike in what it gives, and what denies?",AY1 Z,aɪz,False,wise,denies,ADJ(wise),VERB(denies) + PRES(denies),1,2
+104,207,208,"VII.  Far as Creation's ample range extends,","The scale of sensual, mental powers ascends:",EH1 N D Z,ɛndz,False,extends,ascends,VERB(extends) + PRES(extends),VERB(ascends) + PRES(ascends),2,2
+105,209,210,"Mark how it mounts, to man's imperial race,",From the green myriads in the peopled grass:,EY1 S,eɪs,True,race,grass,NOUN(race),NOUN(grass),1,1
+106,211,212,"What modes of sight betwixt each wide extreme,","The mole's dim curtain, and the lynx's beam:",IY1 M,im,False,extreme,beam,NOUN(extreme),NOUN(beam),1,1
+107,213,214,"Of smell, the headlong lioness between,",And hound sagacious on the tainted green:,IY1 N,in,False,between,green,ADP(between),NOUN(green),1,1
+108,215,216,"Of hearing, from the life that fills the flood,",To that which warbles through the vernal wood:,AH1 D,ʌd,True,flood,wood,NOUN(flood),NOUN(wood),1,1
+109,217,218,"The spider's touch, how exquisitely fine!","Feels at each thread, and lives along the line:",AY1 N,aɪn,False,fine,line,ADJ(fine),NOUN(line),1,1
+110,219,220,"In the nice bee, what sense so subtly true",From poisonous herbs extracts the healing dew?,UW1,u,False,true,dew,ADJ(true),NOUN(dew),1,1
+111,221,222,"How instinct varies in the grovelling swine,","Compared, half-reasoning elephant, with thine!",AY1 N,aɪn,False,swine,thine,NOUN(swine),PROPN(thine),1,1
+112,223,224,"'Twixt that, and reason, what a nice barrier,","For ever separate, yet for ever near!",ER0,ɚ,True,barrier,near,NOUN(barrier),ADJ(near),1,1
+113,225,226,Remembrance and reflection how allayed;,What thin partitions sense from thought divide:,,,False,,,,,0,0
+114,227,228,"And middle natures, how they long to join,",Yet never passed the insuperable line!,,,False,,,,,0,0
+115,229,230,"Without this just gradation, could they be","Subjected, these to those, or all to thee?",IY1,i,False,be,thee,AUX(be),PRON(thee),1,1
+116,231,232,"The powers of all subdued by thee alone,",Is not thy reason all these powers in one?,OW1 N,oʊn,True,alone,one,ADV(alone),NUM(one),1,1
+117,233,234,"VIII.  See, through this air, this ocean, and this earth,","All matter quick, and bursting into birth.",ER1 TH,ɝθ,False,earth,birth,NOUN(earth),NOUN(birth),1,1
+118,235,236,"Above, how high, progressive life may go!","Around, how wide! how deep extend below?",OW1,oʊ,False,go,below,VERB(go),ADV(below),1,1
+119,237,238,"Vast chain of being! which from God began,","Natures ethereal, human, angel, man,",AE1 N,æn,False,began,man,VERB<PAST>(began),NOUN(man),1,1
+120,239,240,"Beast, bird, fish, insect, what no eye can see,","No glass can reach; from Infinite to thee,",IY1,i,False,see,thee,VERB(see),NOUN(thee),1,1
+121,241,242,From thee to nothing.  On superior powers,"Were we to press, inferior might on ours:",AW1 ER0 Z,aʊɚz,False,powers,ours,NOUN(powers) + PL(powers),NOUN(ours) + PL(ours),2,2
+122,243,244,"Or in the full creation leave a void,","Where, one step broken, the great scale's destroyed:",OY1 D,ɔɪd,False,void,destroyed,NOUN(void),VERB(destroyed) + PAST_PTCP(destroyed),1,2
+123,245,246,"From Nature's chain whatever link you strike,","Tenth or ten thousandth, breaks the chain alike.",AY1 K,aɪk,False,strike,alike,VERB(strike),ADV(alike),1,1
+124,247,248,"And, if each system in gradation roll","Alike essential to the amazing whole,",OW1 L,oʊl,False,roll,whole,NOUN(roll),NOUN(whole),1,1
+125,249,250,"The least confusion but in one, not all","That system only, but the whole must fall.",AA1 L,ɑl,False,all,fall,PRON(all),VERB(fall),1,1
+126,251,252,"Let earth unbalanced from her orbit fly,",Planets and suns run lawless through the sky;,AY1,aɪ,False,fly,sky,NOUN(fly),NOUN(sky),1,1
+127,253,254,"Let ruling angels from their spheres be hurled,","Being on being wrecked, and world on world;",ER1 L D,ɝld,False,hurled,world,VERB(hurled) + PAST_PTCP(hurled),NOUN(world),2,1
+128,255,256,"Heaven's whole foundations to their centre nod,",And nature tremble to the throne of God.,AA1 D,ɑd,False,nod,God,NOUN(nod),PROPN(God),1,1
+129,257,258,All this dread order break--for whom? for thee?,"Vile worm!--Oh, madness! pride! impiety!",IY1,i,False,thee,impiety,NOUN(thee),NOUN(impiety),1,1
+130,259,260,"IX.  What if the foot, ordained the dust to tread,","Or hand, to toil, aspired to be the head?",EH1 D,ɛd,False,tread,head,VERB(tread),NOUN(head),1,1
+131,261,262,"What if the head, the eye, or ear repined",To serve mere engines to the ruling mind?,AY1 N D,aɪnd,False,repined,mind,VERB<PAST>(repined),NOUN(mind),1,1
+132,263,264,Just as absurd for any part to claim,"To be another, in this general frame:",EY1 M,eɪm,False,claim,frame,VERB(claim),NOUN(frame),1,1
+133,265,266,"Just as absurd, to mourn the tasks or pains,",The great directing Mind of All ordains.,EY1 N Z,eɪnz,True,pains,ordains,NOUN(pains) + PL(pains),NOUN<PL>(ordains),2,1
+134,267,268,"All are but parts of one stupendous whole,","Whose body Nature is, and God the soul;",OW1 L,oʊl,False,whole,soul,NOUN(whole),NOUN(soul),1,1
+135,269,270,"That, changed through all, and yet in all the same;","Great in the earth, as in the ethereal frame;",EY1 M,eɪm,False,same,frame,ADJ(same),NOUN(frame),1,1
+136,271,272,"Warms in the sun, refreshes in the breeze,","Glows in the stars, and blossoms in the trees,",IY1 Z,iz,False,breeze,trees,NOUN(breeze),NOUN(trees) + PL(trees),1,2
+137,273,274,"Lives through all life, extends through all extent,","Spreads undivided, operates unspent;",EH1 N T,ɛnt,False,extent,unspent,NOUN(extent),ADJ(unspent),1,1
+138,275,276,"Breathes in our soul, informs our mortal part,","As full, as perfect, in a hair as heart:",AA1 R T,ɑɹt,False,part,heart,NOUN(part),NOUN(heart),1,1
+139,277,278,"As full, as perfect, in vile man that mourns,",As the rapt seraph that adores and burns:,AA1 R N Z,ɑɹnz,True,mourns,burns,NOUN(mourns) + PL(mourns),NOUN(burns) + PL(burns),2,2
+140,279,280,"To him no high, no low, no great, no small;","He fills, he bounds, connects, and equals all.",AA1 L,ɑl,False,small,all,ADJ(small),PRON(all),1,1
+141,281,282,"X.  Cease, then, nor order imperfection name:",Our proper bliss depends on what we blame.,EY1 M,eɪm,False,name,blame,NOUN(name),VERB(blame),1,1
+142,283,284,"Know thy own point: this kind, this due degree","Of blindness, weakness, Heaven bestows on thee.",IY1,i,False,degree,thee,NOUN(degree),NOUN(thee),1,1
+143,285,286,"Submit.  In this, or any other sphere,",Secure to be as blest as thou canst bear:,IH1 R,ɪɹ,True,sphere,bear,NOUN(sphere),VERB(bear),1,1
+144,287,288,"Safe in the hand of one disposing Power,","Or in the natal, or the mortal hour.",AW1 ER0,aʊɚ,False,Power,hour,PROPN(Power),NOUN(hour),1,1
+145,289,290,"All nature is but art, unknown to thee;","All chance, direction, which thou canst not see;",IY1,i,False,thee,see,NOUN(thee),VERB(see),1,1
+146,291,292,"All discord, harmony not understood;","All partial evil, universal good:",UH1 D,ʊd,False,understood,good,VERB<PAST>(understood),NOUN(good),1,1
+147,293,294,"And, spite of pride in erring reason's spite,","One truth is clear, whatever is, is right.",AY1 T,aɪt,False,spite,right,NOUN(spite),ADJ(right),1,1
+148,295,296,"I.  Know, then, thyself, presume not God to scan;",The proper study of mankind is man.,AE1 N,æn,False,scan,man,VERB(scan),NOUN(man),1,1
+149,297,298,"Placed on this isthmus of a middle state,","A being darkly wise, and rudely great:",EY1 T,eɪt,False,state,great,NOUN(state),ADJ(great),1,1
+150,299,300,"With too much knowledge for the sceptic side,","With too much weakness for the stoic's pride,",AY1 D,aɪd,False,side,pride,NOUN(side),NOUN(pride),1,1
+151,301,302,"He hangs between; in doubt to act, or rest;","In doubt to deem himself a god, or beast;",EH1 S T,ɛst,True,rest,beast,NOUN(rest),NOUN(beast),1,1
+152,303,304,In doubt his mind or body to prefer;,"Born but to die, and reasoning but to err;",ER1,ɝ,True,prefer,err,VERB(prefer),PROPN(err),1,1
+153,305,306,"Alike in ignorance, his reason such,","Whether he thinks too little, or too much:",AH1 CH,ʌtʃ,False,such,much,ADJ(such),ADJ(much),1,1
+154,307,308,"Chaos of thought and passion, all confused;","Still by himself abused, or disabused;",UW1 Z D,uzd,False,confused,disabused,ADJ(confused),VERB<PAST_PTCP>(disabused),1,1
+155,309,310,"Created half to rise, and half to fall;","Great lord of all things, yet a prey to all;",UW1 F AA1 L,ufɑl,True,to | fall,to | all,PART(to) + VERB(fall),ADP(to) + PRON(all),2,2
+156,311,312,"Sole judge of truth, in endless error hurled:","The glory, jest, and riddle of the world!",ER1 L D,ɝld,False,hurled,world,VERB(hurled) + PAST_PTCP(hurled),NOUN(world),2,1
+157,313,314,"Go, wondrous creature! mount where science guides,","Go, measure earth, weigh air, and state the tides;",AY1 D Z,aɪdz,False,guides,tides,NOUN(guides) + PL(guides),NOUN(tides) + PL(tides),2,2
+158,315,316,"Instruct the planets in what orbs to run,","Correct old time, and regulate the sun;",AH1 N,ʌn,False,run,sun,VERB(run),NOUN(sun),1,1
+159,317,318,"Go, soar with Plato to th' empyreal sphere,","To the first good, first perfect, and first fair;",IH1 R,ɪɹ,True,sphere,fair,NOUN(sphere),ADJ(fair),1,1
+160,319,320,"Or tread the mazy round his followers trod,",And quitting sense call imitating God;,AA1 D,ɑd,False,trod,God,PROPN(trod),PROPN(God),1,1
+161,321,322,"As Eastern priests in giddy circles run,",And turn their heads to imitate the sun.,AH1 N,ʌn,False,run,sun,VERB(run),NOUN(sun),1,1
+162,323,324,"Go, teach Eternal Wisdom how to rule--","Then drop into thyself, and be a fool!",,,False,,,,,0,0
+163,325,326,"Superior beings, when of late they saw","A mortal man unfold all Nature's law,",EY1 S AA1,eɪsɑ,True,they | saw,'s | law,PRON(they) + VERB<PAST>(saw),PART('s) + NOUN(law),2,2
+164,327,328,Admired such wisdom in an earthly shape,And showed a Newton as we show an ape.,EY1 P,eɪp,False,shape,ape,NOUN(shape),NOUN(ape),1,1
+165,329,330,"Could he, whose rules the rapid comet bind,",Describe or fix one movement of his mind?,AY1 N D,aɪnd,False,bind,mind,NOUN(bind),NOUN(mind),1,1
+166,331,332,"Who saw its fires here rise, and there descend,","Explain his own beginning, or his end?",EH1 N D,ɛnd,False,descend,end,VERB(descend),NOUN(end),1,1
+167,333,334,"Alas, what wonder! man's superior part","Unchecked may rise, and climb from art to art;",AA1 R T,ɑɹt,False,part,art,NOUN(part),NOUN(art),1,1
+168,335,336,"But when his own great work is but begun,","What reason weaves, by passion is undone.",AH1 N,ʌn,False,begun,undone,VERB<PAST_PTCP>(begun),VERB<PAST_PTCP>(undone),1,1
+169,337,338,"Trace Science, then, with Modesty thy guide;",First strip off all her equipage of pride;,AY1 D,aɪd,False,guide,pride,NOUN(guide),NOUN(pride),1,1
+170,339,340,"Deduct what is but vanity or dress,","Or learning's luxury, or idleness;",EH1 S,ɛs,True,dress,idleness,NOUN(dress),NOUN(idleness),1,1
+171,341,342,"Or tricks to show the stretch of human brain,","Mere curious pleasure, or ingenious pain;",EY1 N,eɪn,False,brain,pain,NOUN(brain),NOUN(pain),1,1
+172,343,344,"Expunge the whole, or lop th' excrescent parts",Of all our vices have created arts;,AA1 R T Z,ɑɹtz,False,parts,arts,NOUN(parts) + PL(parts),NOUN(arts) + PL(arts),2,2
+173,345,346,"Then see how little the remaining sum,","Which served the past, and must the times to come!",AH1 M,ʌm,False,sum,come,NOUN(sum),VERB(come),1,1
+174,347,348,II.  Two principles in human nature reign;,"Self-love to urge, and reason, to restrain;",EY1 N,eɪn,False,reign,restrain,NOUN(reign),VERB(restrain),1,1
+175,349,350,"Nor this a good, nor that a bad we call,","Each works its end, to move or govern all",AA1 L,ɑl,False,call,all,VERB(call),PRON(all),1,1
+176,351,352,"And to their proper operation still,","Ascribe all good; to their improper, ill.",IH1 L,ɪl,False,still,ill,ADV(still),ADJ(ill),1,1
+177,353,354,"Self-love, the spring of motion, acts the soul;",Reason's comparing balance rules the whole.,OW1 L,oʊl,False,soul,whole,NOUN(soul),NOUN(whole),1,1
+178,355,356,"Man, but for that, no action could attend,","And but for this, were active to no end:",EH1 N D,ɛnd,False,attend,end,VERB(attend),NOUN(end),1,1
+179,357,358,"Fixed like a plant on his peculiar spot,","To draw nutrition, propagate, and rot;",AA1 T,ɑt,False,spot,rot,NOUN(spot),VERB(rot),1,1
+180,359,360,"Or, meteor-like, flame lawless through the void,","Destroying others, by himself destroyed.",OY1 D,ɔɪd,False,void,destroyed,NOUN(void),VERB(destroyed) + PAST_PTCP(destroyed),1,2
+181,361,362,Most strength the moving principle requires;,"Active its task, it prompts, impels, inspires.",,,False,,,,,0,0
+182,363,364,"Sedate and quiet the comparing lies,","Formed but to check, deliberate, and advise.",AY1 Z,aɪz,False,lies,advise,NOUN(lies) + PL(lies),VERB(advise),2,1
+183,365,366,"Self-love still stronger, as its objects nigh;","Reason's at distance, and in prospect lie:",AY1,aɪ,False,nigh,lie,NOUN(nigh),NOUN(lie),1,1
+184,367,368,That sees immediate good by present sense;,"Reason, the future and the consequence.",EH1 N S,ɛns,True,sense,consequence,NOUN(sense),NOUN(consequence),1,1
+185,369,370,"Thicker than arguments, temptations throng.","At best more watchful this, but that more strong.",AA1 NG,ɑŋ,False,throng,strong,NOUN(throng),ADJ(strong),1,1
+186,371,372,"The action of the stronger to suspend,","Reason still use, to reason still attend.",EH1 N D,ɛnd,False,suspend,attend,VERB(suspend),VERB(attend),1,1
+187,373,374,"Attention, habit and experience gains;","Each strengthens reason, and self-love restrains.",EY1 N Z,eɪnz,False,gains,restrains,NOUN(gains) + PL(gains),NOUN(restrains) + PL(restrains),2,2
+188,375,376,"Let subtle schoolmen teach these friends to fight,",More studious to divide than to unite;,AY1 T,aɪt,False,fight,unite,VERB(fight),VERB(unite),1,1
+189,377,378,"And grace and virtue, sense and reason split,",With all the rash dexterity of wit.,IH1 T,ɪt,False,split,wit,VERB(split),NOUN(wit),1,1
+190,379,380,"Wits, just like fools, at war about a name,","Have full as oft no meaning, or the same.",EY1 M,eɪm,False,name,same,NOUN(name),ADJ(same),1,1
+191,381,382,"Self-love and reason to one end aspire,","Pain their aversion, pleasure their desire;",,,False,,,,,0,0
+192,383,384,"But greedy that, its object would devour,","This taste the honey, and not wound the flower:",AW1 ER0,aʊɚ,False,devour,flower,VERB(devour),NOUN(flower),1,1
+193,385,386,"Pleasure, or wrong or rightly understood,","Our greatest evil, or our greatest good.",UH1 D,ʊd,False,understood,good,VERB<PAST_PTCP>(understood),NOUN(good),1,1
+194,387,388,III.  Modes of self-love the passions we may call;,"'Tis real good, or seeming, moves them all:",AA1 L,ɑl,False,call,all,VERB(call),PRON(all),1,1
+195,389,390,"But since not every good we can divide,",And reason bids us for our own provide;,AY1 D,aɪd,False,divide,provide,VERB(divide),NOUN(provide),1,1
+196,391,392,"Passions, though selfish, if their means be fair,","List under Reason, and deserve her care;",EH1 R,ɛɹ,False,fair,care,ADJ(fair),NOUN(care),1,1
+197,393,394,"Those, that imparted, court a nobler aim,","Exalt their kind, and take some virtue's name.",EY1 M,eɪm,False,aim,name,NOUN(aim),NOUN(name),1,1
+198,395,396,In lazy apathy let stoics boast,Their virtue fixed; 'tis fixed as in a frost;,OW1 S T,oʊst,True,boast,frost,VERB(boast),NOUN(frost),1,1
+199,397,398,"Contracted all, retiring to the breast;","But strength of mind is exercise, not rest:",EH1 S T,ɛst,False,breast,rest,NOUN(breast),NOUN(rest),1,1
+200,399,400,"The rising tempest puts in act the soul,","Parts it may ravage, but preserves the whole.",OW1 L,oʊl,False,soul,whole,NOUN(soul),NOUN(whole),1,1
+201,401,402,"On life's vast ocean diversely we sail,","Reason the card, but passion is the gale;",EY1 L,eɪl,False,sail,gale,VERB(sail),NOUN(gale),1,1
+202,403,404,"Nor God alone in the still calm we find,","He mounts the storm, and walks upon the wind.",AY1 N D,aɪnd,True,find,wind,VERB(find),NOUN(wind),1,1
+203,405,406,"Passions, like elements, though born to fight,","Yet, mixed and softened, in his work unite:",AY1 T,aɪt,False,fight,unite,VERB(fight),VERB(unite),1,1
+204,407,408,"These, 'tis enough to temper and employ;","But what composes man, can man destroy?",OY1,ɔɪ,False,employ,destroy,VERB(employ),VERB(destroy),1,1
+205,409,410,"Suffice that Reason keep to Nature's road,","Subject, compound them, follow her and God.",OW1 D,oʊd,True,road,God,NOUN(road),PROPN(God),1,1
+206,411,412,"Love, hope, and joy, fair pleasure's smiling train,","Hate, fear, and grief, the family of pain,",EY1 N,eɪn,False,train,pain,NOUN(train),NOUN(pain),1,1
+207,413,414,"These mixed with art, and to due bounds confined,",Make and maintain the balance of the mind;,AY1 N D,aɪnd,False,confined,mind,VERB(confined) + PAST_PTCP(confined),NOUN(mind),2,1
+208,415,416,"The lights and shades, whose well-accorded strife",Gives all the strength and colour of our life.,AY1 F,aɪf,False,strife,life,NOUN(strife),NOUN(life),1,1
+209,417,418,Pleasures are ever in our hands or eyes;,"And when in act they cease, in prospect rise:",AY1 Z,aɪz,False,eyes,rise,NOUN(eyes) + PL(eyes),NOUN(rise),2,1
+210,419,420,"Present to grasp, and future still to find,",The whole employ of body and of mind.,AY1 N D,aɪnd,False,find,mind,VERB(find),NOUN(mind),1,1
+211,421,422,"All spread their charms, but charm not all alike;",On different senses different objects strike;,AY1 K,aɪk,False,alike,strike,ADV(alike),VERB(strike),1,1
+212,423,424,"Hence different passions more or less inflame,","As strong or weak, the organs of the frame;",EY1 M,eɪm,False,inflame,frame,NOUN(inflame),NOUN(frame),1,1
+213,425,426,"And hence once master passion in the breast,","Like Aaron's serpent, swallows up the rest.",EH1 S T,ɛst,False,breast,rest,NOUN(breast),NOUN(rest),1,1
+214,427,428,"As man, perhaps, the moment of his breath",Receives the lurking principle of death;,EH1 TH,ɛθ,False,breath,death,NOUN(breath),NOUN(death),1,1
+215,429,430,"The young disease that must subdue at length,","Grows with his growth, and strengthens with his strength:",EH1 NG K TH,ɛŋkθ,False,length,strength,NOUN(length),NOUN(strength),1,1
+216,431,432,"So, cast and mingled with his very frame,","The mind's disease, its ruling passion came;",EY1 M,eɪm,False,frame,came,NOUN(frame),VERB<PAST>(came),1,1
+217,433,434,"Each vital humour which should feed the whole,","Soon flows to this, in body and in soul:",OW1 L,oʊl,False,whole,soul,NOUN(whole),NOUN(soul),1,1
+218,435,436,"Whatever warms the heart, or fills the head,","As the mind opens, and its functions spread,",EH1 D,ɛd,False,head,spread,NOUN(head),VERB(spread),1,1
+219,437,438,"Imagination plies her dangerous art,",And pours it all upon the peccant part.,AA1 R T,ɑɹt,False,art,part,NOUN(art),NOUN(part),1,1
+220,439,440,"Nature its mother, habit is its nurse;","Wit, spirit, faculties, but make it worse;",ER1 S,ɝs,False,nurse,worse,NOUN(nurse),ADJ<COMP>(worse),1,1
+221,441,442,Reason itself but gives it edge and power;,As Heaven's blest beam turns vinegar more sour.,AW1 ER0,aʊɚ,False,power,sour,NOUN(power),ADJ(sour),1,1
+222,443,444,"We, wretched subjects, though to lawful sway,",In this weak queen some favourite still obey:,EY1,eɪ,False,sway,obey,NOUN(sway),VERB(obey),1,1
+223,445,446,"Ah! if she lend not arms, as well as rules,",What can she more than tell us we are fools?,UW1 L Z,ulz,False,rules,fools,NOUN(rules) + PL(rules),NOUN(fools) + PL(fools),2,2
+224,447,448,"Teach us to mourn our nature, not to mend,","A sharp accuser, but a helpless friend!",EH1 N D,ɛnd,False,mend,friend,VERB(mend),NOUN(friend),1,1
+225,449,450,"Or from a judge turn pleader, to persuade","The choice we make, or justify it made;",EY1 D,eɪd,False,persuade,made,VERB(persuade),VERB<PAST>(made),1,1
+226,451,452,"Proud of an easy conquest all along,",She but removes weak passions for the strong;,AA1 NG,ɑŋ,False,along,strong,ADV(along),ADJ(strong),1,1
+227,453,454,"So, when small humours gather to a gout,",The doctor fancies he has driven them out.,AW1 T,aʊt,False,gout,out,NOUN(gout),ADP(out),1,1
+228,455,456,"Yes, Nature's road must ever be preferred;","Reason is here no guide, but still a guard:",ER1 D,ɝd,True,preferred,guard,VERB(preferred) + PAST_PTCP(preferred),NOUN(guard),2,1
+229,457,458,"'Tis hers to rectify, not overthrow,",And treat this passion more as friend than foe:,OW2,oʊ,False,overthrow,foe,VERB(overthrow),PROPN(foe),1,1
+230,459,460,"A mightier power the strong direction sends,",And several men impels to several ends:,EH1 N D Z,ɛndz,False,sends,ends,VERB(sends) + PRES(sends),NOUN(ends) + PL(ends),2,2
+231,461,462,"Like varying winds, by other passions tossed,",This drives them constant to a certain coast.,AA1 S D,ɑsd,True,tossed,coast,VERB(tossed) + PAST_PTCP(tossed),NOUN(coast),2,1
+232,463,464,"Let power or knowledge, gold or glory, please,",Or (oft more strong than all) the love of ease;,IY1 Z,iz,False,please,ease,INTJ(please),NOUN(ease),1,1
+233,465,466,"Through life 'tis followed, even at life's expense;","The merchant's toil, the sage's indolence,",EH1 N S,ɛns,True,expense,indolence,NOUN(expense),NOUN(indolence),1,1
+234,467,468,"The monk's humility, the hero's pride,","All, all alike, find reason on their side.",AY1 D,aɪd,False,pride,side,NOUN(pride),NOUN(side),1,1
+235,469,470,"The eternal art, educing good from ill,",Grafts on this passion our best principle:,IH1 L,ɪl,True,ill,principle,ADJ(ill),NOUN(principle),1,1
+236,471,472,"'Tis thus the mercury of man is fixed,",Strong grows the virtue with his nature mixed;,IH1 K S D,ɪksd,False,fixed,mixed,VERB(fixed) + PAST_PTCP(fixed),VERB(mixed) + PAST_PTCP(mixed),2,2
+237,473,474,"The dross cements what else were too refined,",And in one interest body acts with mind.,AY1 N D,aɪnd,False,refined,mind,ADJ(refined),NOUN(mind),1,1
+238,475,476,"As fruits, ungrateful to the planter's care,","On savage stocks inserted, learn to bear;",EH1 R,ɛɹ,False,care,bear,NOUN(care),VERB(bear),1,1
+239,477,478,"The surest virtues thus from passions shoot,",Wild nature's vigour working at the root.,UW1 T,ut,False,shoot,root,VERB(shoot),NOUN(root),1,1
+240,479,480,What crops of wit and honesty appear,"From spleen, from obstinacy, hate, or fear!",IH1 R,ɪɹ,False,appear,fear,VERB(appear),NOUN(fear),1,1
+241,481,482,"See anger, zeal and fortitude supply;","Even avarice, prudence; sloth, philosophy;",AY1,aɪ,True,supply,philosophy,NOUN(supply),NOUN(philosophy),1,1
+242,483,484,"Lust, through some certain strainers well refined,","Is gentle love, and charms all womankind;",,,False,,,,,0,0
+243,485,486,"Envy, to which th' ignoble mind's a slave,",Is emulation in the learned or brave;,EY1 V,eɪv,False,slave,brave,NOUN(slave),ADJ(brave),1,1
+244,487,488,"Nor virtue, male or female, can we name,","But what will grow on pride, or grow on shame.",EY1 M,eɪm,False,name,shame,VERB(name),NOUN(shame),1,1
+245,489,490,Thus Nature gives us (let it check our pride),The virtue nearest to our vice allied:,AY1 D,aɪd,False,pride,allied,NOUN(pride),VERB<PAST_PTCP>(allied),1,1
+246,491,492,Reason the bias turns to good from ill,"And Nero reigns a Titus, if he will.",IH1 L,ɪl,False,ill,will,ADJ(ill),AUX(will),1,1
+247,493,494,"The fiery soul abhorred in Catiline,","In Decius charms, in Curtius is divine:",AY2 N,aɪn,False,Catiline,divine,PROPN(Catiline),ADJ(divine),1,1
+248,495,496,"The same ambition can destroy or save,",And makes a patriot as it makes a knave.,EY1 V,eɪv,False,save,knave,VERB(save),NOUN(knave),1,1
+249,497,498,"This light and darkness in our chaos joined,",What shall divide?  The God within the mind.,,,False,,,,,0,0
+250,499,500,"Extremes in nature equal ends produce,",In man they join to some mysterious use;,UW1 S,us,False,produce,use,VERB(produce),NOUN(use),1,1
+251,501,502,"Though each by turns the other's bound invade,","As, in some well-wrought picture, light and shade,",EY1 D,eɪd,False,invade,shade,NOUN(invade),NOUN(shade),1,1
+252,503,504,"And oft so mix, the difference is too nice",Where ends the virtue or begins the vice.,AY1 S,aɪs,False,nice,vice,ADJ(nice),NOUN(vice),1,1
+253,505,506,"Fools! who from hence into the notion fall,",That vice or virtue there is none at all.,AA1 L,ɑl,False,fall,all,NOUN(fall),ADV(all),1,1
+254,507,508,"If white and black blend, soften, and unite","A thousand ways, is there no black or white?",AY2 T,aɪt,False,unite,white,VERB(unite),ADJ(white),1,1
+255,509,510,"Ask your own heart, and nothing is so plain;","'Tis to mistake them, costs the time and pain.",EY1 N,eɪn,False,plain,pain,ADJ(plain),NOUN(pain),1,1
+256,511,512,"Vice is a monster of so frightful mien,","As, to be hated, needs but to be seen;",IY1 N,in,False,mien,seen,NOUN(mien),VERB(seen) + PAST_PTCP(seen),1,2
+257,513,514,"Yet seen too oft, familiar with her face,","We first endure, then pity, then embrace.",EY1 S,eɪs,False,face,embrace,NOUN(face),VERB(embrace),1,1
+258,515,516,"But where th' extreme of vice, was ne'er agreed:","Ask where's the north? at York, 'tis on the Tweed;",IY1 D,id,False,agreed,Tweed,VERB(agreed) + PAST(agreed),PROPN(Tweed),2,1
+259,517,518,"In Scotland, at the Orcades; and there,","At Greenland, Zembla, or the Lord knows where.",EH1 R,ɛɹ,False,there,where,ADV(there),SCONJ(where),1,1
+260,519,520,"No creature owns it in the first degree,",But thinks his neighbour farther gone than he;,IY1,i,False,degree,he,NOUN(degree),PRON(he),1,1
+261,521,522,"Even those who dwell beneath its very zone,","Or never feel the rage, or never own;",OW1 N,oʊn,False,zone,own,NOUN(zone),ADJ(own),1,1
+262,523,524,"What happier nations shrink at with affright,",The hard inhabitant contends is right.,AY2 T,aɪt,False,affright,right,NOUN(affright),ADJ(right),1,1
+263,525,526,"Virtuous and vicious every man must be,","Few in th' extreme, but all in the degree,",IY1,i,False,be,degree,AUX(be),NOUN(degree),1,1
+264,527,528,The rogue and fool by fits is fair and wise;,"And even the best, by fits, what they despise.",AY1 Z,aɪz,False,wise,despise,ADJ(wise),VERB(despise),1,1
+265,529,530,'Tis but by parts we follow good or ill;,"For, vice or virtue, self directs it still;",IH1 L,ɪl,False,ill,still,ADJ(ill),ADV(still),1,1
+266,531,532,Each individual seeks a several goal;,"But Heaven's great view is one, and that the whole.",OW1 L,oʊl,False,goal,whole,NOUN(goal),NOUN(whole),1,1
+267,533,534,That counter-works each folly and caprice;,That disappoints th' effect of every vice;,IY1 S,is,True,caprice,vice,NOUN(caprice),NOUN(vice),1,1
+268,535,536,"That, happy frailties to all ranks applied,","Shame to the virgin, to the matron pride,",AY1 D,aɪd,False,applied,pride,VERB(applied) + PAST_PTCP(applied),PROPN(pride),2,1
+269,537,538,"Fear to the statesman, rashness to the chief,","To kings presumption, and to crowds belief:",IY1 F,if,False,chief,belief,NOUN(chief),NOUN(belief),1,1
+270,539,540,"That, virtue's ends from vanity can raise,","Which seeks no interest, no reward but praise;",EY1 Z,eɪz,False,raise,praise,VERB(raise),NOUN(praise),1,1
+271,541,542,"And build on wants, and on defects of mind,","The joy, the peace, the glory of mankind.",AY1 N D,aɪnd,False,mind,mankind,NOUN(mind),NOUN(mankind),1,1
+272,543,544,"Heaven forming each on other to depend,","A master, or a servant, or a friend,",EH1 N D,ɛnd,False,depend,friend,VERB(depend),NOUN(friend),1,1
+273,545,546,"Bids each on other for assistance call,",Till one man's weakness grows the strength of all.,AA1 L,ɑl,False,call,all,NOUN(call),PRON(all),1,1
+274,547,548,"Wants, frailties, passions, closer still ally","The common interest, or endear the tie.",AY0,aɪ,False,ally,tie,NOUN(ally),NOUN(tie),1,1
+275,549,550,"To these we owe true friendship, love sincere,",Each home-felt joy that life inherits here;,IH1 R,ɪɹ,True,sincere,here,ADJ(sincere),ADV(here),1,1
+276,551,552,"Yet from the same we learn, in its decline,","Those joys, those loves, those interests to resign;",AY1 N,aɪn,False,decline,resign,NOUN(decline),VERB(resign),1,1
+277,553,554,"Taught half by reason, half by mere decay,","To welcome death, and calmly pass away.",EY1,eɪ,False,decay,away,NOUN(decay),ADV(away),1,1
+278,555,556,"Whate'er the passion, knowledge, fame, or pelf,",Not one will change his neighbour with himself.,EH1 L F,ɛlf,False,pelf,himself,PRON(pelf),PRON(himself),1,1
+279,557,558,"The learned is happy nature to explore,",The fool is happy that he knows no more;,AA1 R,ɑɹ,False,explore,more,VERB(explore),ADV(more),1,1
+280,559,560,"The rich is happy in the plenty given,",The poor contents him with the care of Heaven.,IH1 V AH0 N,ɪvən,True,given,Heaven,VERB(given) + PAST_PTCP(given),PROPN(Heaven),2,1
+281,561,562,"See the blind beggar dance, the cripple sing,","The sot a hero, lunatic a king;",IH1 NG,ɪŋ,False,sing,king,VERB(sing),NOUN(king),1,1
+282,563,564,The starving chemist in his golden views,"Supremely blest, the poet in his muse.",UW1 Z,uz,False,views,muse,NOUN(views) + PL(views),NOUN(muse),2,1
+283,565,566,"See some strange comfort every state attend,","And pride bestowed on all, a common friend;",EH1 N D,ɛnd,False,attend,friend,VERB(attend),NOUN(friend),1,1
+284,567,568,"See some fit passion every age supply,","Hope travels through, nor quits us when we die.",AY1,aɪ,False,supply,die,NOUN(supply),VERB(die),1,1
+285,569,570,"Behold the child, by Nature's kindly law,","Pleased with a rattle, tickled with a straw:",AA1,ɑ,False,law,straw,NOUN(law),NOUN(straw),1,1
+286,571,572,"Some livelier plaything gives his youth delight,","A little louder, but as empty quite:",AY1 T,aɪt,False,delight,quite,NOUN(delight),ADV(quite),1,1
+287,573,574,"Scarves, garters, gold, amuse his riper stage,",And beads and prayer-books are the toys of age:,EY1 JH,eɪdʒ,False,stage,age,NOUN(stage),NOUN(age),1,1
+288,575,576,"Pleased with this bauble still, as that before;","Till tired he sleeps, and life's poor play is o'er.",AA1 R,ɑɹ,True,before,o'er,ADV(before),PROPN(o'er),1,1
+289,577,578,Meanwhile opinion gilds with varying rays,Those painted clouds that beautify our days;,EY1 Z,eɪz,False,rays,days,NOUN(rays) + PL(rays),NOUN(days) + PL(days),2,2
+290,579,580,"Each want of happiness by hope supplied,",And each vacuity of sense by pride:,AY1 D,aɪd,False,supplied,pride,VERB(supplied) + PAST_PTCP(supplied),NOUN(pride),2,1
+291,581,582,These build as fast as knowledge can destroy;,"In folly's cup still laughs the bubble, joy;",OY1,ɔɪ,False,destroy,joy,VERB(destroy),NOUN(joy),1,1
+292,583,584,"One prospect lost, another still we gain;",And not a vanity is given in vain;,EY1 N,eɪn,False,gain,vain,VERB(gain),NOUN(vain),1,1
+293,585,586,"Even mean self-love becomes, by force divine,",The scale to measure others' wants by thine.,AY1 N,aɪn,False,divine,thine,ADJ(divine),PROPN(thine),1,1
+294,587,588,"See! and confess, one comfort still must rise,","'Tis this, though man's a fool, yet God is wise.",AY1 Z,aɪz,False,rise,wise,VERB(rise),ADJ(wise),1,1
+295,589,590,"Here, then, we rest: ""The Universal Cause","Acts to one end, but acts by various laws.""",AA1 Z,ɑz,False,Cause,laws,PROPN(Cause),NOUN(laws) + PL(laws),1,2
+296,591,592,"In all the madness of superfluous health,","The trim of pride, the impudence of wealth,",EH1 L TH,ɛlθ,False,health,wealth,NOUN(health),NOUN(wealth),1,1
+297,593,594,Let this great truth be present night and day;,"But most be present, if we preach or pray.",EY1,eɪ,False,day,pray,NOUN(day),VERB(pray),1,1
+298,595,596,Look round our world; behold the chain of love,Combining all below and all above.,AH1 V,ʌv,False,love,above,NOUN(love),ADV(above),1,1
+299,597,598,"See plastic Nature working to this end,","The single atoms each to other tend,",EH1 N D,ɛnd,False,end,tend,NOUN(end),VERB(tend),1,1
+300,599,600,"Attract, attracted to, the next in place",Formed and impelled its neighbour to embrace.,EY1 S,eɪs,False,place,embrace,NOUN(place),VERB(embrace),1,1
+301,601,602,"See matter next, with various life endued,","Press to one centre still, the general good.",UW1 D,ud,True,endued,good,VERB(endued) + PAST(endued),NOUN(good),2,1
+302,603,604,"See dying vegetables life sustain,",See life dissolving vegetate again:,EY1 N,eɪn,True,sustain,again,VERB(sustain),ADV(again),1,1
+303,605,606,All forms that perish other forms supply,"(By turns we catch the vital breath, and die),",AY1,aɪ,False,supply,die,NOUN(supply),VERB(die),1,1
+304,607,608,"Like bubbles on the sea of matter borne,","They rise, they break, and to that sea return.",AA1 R N,ɑɹn,True,borne,return,ADJ(borne),NOUN(return),1,1
+305,609,610,Nothing is foreign: parts relate to whole;,"One all-extending, all-preserving soul",OW1 L,oʊl,False,whole,soul,NOUN(whole),NOUN(soul),1,1
+306,611,612,"Connects each being, greatest with the least;","Made beast in aid of man, and man of beast;",IY1 S T,ist,False,least,beast,ADJ(least),NOUN(beast),1,1
+307,613,614,"All served, all serving: nothing stands alone;","The chain holds on, and where it ends, unknown.",OW1 N,oʊn,False,alone,unknown,ADV(alone),ADJ(unknown),1,1
+308,615,616,"Has God, thou fool! worked solely for thy Thy good,","Thy joy, thy pastime, thy attire, thy food?",UH1 D,ʊd,True,good,food,NOUN(good),NOUN(food),1,1
+309,617,618,"Who for thy table feeds the wanton fawn,",For him as kindly spread the flowery lawn:,AA1 N,ɑn,False,fawn,lawn,NOUN(fawn),NOUN(lawn),1,1
+310,619,620,Is it for thee the lark ascends and sings?,"Joy tunes his voice, joy elevates his wings.",IH1 NG Z,ɪŋz,False,sings,wings,VERB(sings) + PRES(sings),NOUN(wings) + PL(wings),2,2
+311,621,622,Is it for thee the linnet pours his throat?,Loves of his own and raptures swell the note.,OW1 T,oʊt,False,throat,note,NOUN(throat),NOUN(note),1,1
+312,623,624,"The bounding steed you pompously bestride,",Shares with his lord the pleasure and the pride.,AY0 D,aɪd,False,bestride,pride,VERB(bestride),NOUN(pride),1,1
+313,625,626,Is thine alone the seed that strews the plain?,The birds of heaven shall vindicate their grain.,EY1 N,eɪn,False,plain,grain,NOUN(plain),NOUN(grain),1,1
+314,627,628,Thine the full harvest of the golden year?,"Part pays, and justly, the deserving steer:",IH1 R,ɪɹ,False,year,steer,NOUN(year),NOUN(steer),1,1
+315,629,630,"The hog, that ploughs not nor obeys thy call,",Lives on the labours of this lord of all.,AA1 L,ɑl,False,call,all,NOUN(call),PRON(all),1,1
+316,631,632,"Know, Nature's children all divide her care;","The fur that warms a monarch, warmed a bear.",EH1 R,ɛɹ,False,care,bear,NOUN(care),NOUN(bear),1,1
+317,633,634,"While man exclaims, ""See all things for my use!""","""See man for mine!"" replies a pampered goose:",UW1 S,us,False,use,goose,NOUN(use),NOUN(goose),1,1
+318,635,636,"And just as short of reason he must fall,","Who thinks all made for one, not one for all.",AA1 L,ɑl,False,fall,all,VERB(fall),PRON(all),1,1
+319,637,638,Grant that the powerful still the weak control;,Be man the wit and tyrant of the whole:,OW1 L,oʊl,False,control,whole,NOUN(control),NOUN(whole),1,1
+320,639,640,"Nature that tyrant checks; he only knows,","And helps, another creature's wants and woes.",OW1 Z,oʊz,False,knows,woes,VERB(knows) + PRES(knows),NOUN(woes) + PL(woes),2,2
+321,641,642,"Say, will the falcon, stooping from above,","Smit with her varying plumage, spare the dove?",AH1 V,ʌv,False,above,dove,ADV(above),NOUN(dove),1,1
+322,643,644,Admires the jay the insect's gilded wings?,Or hears the hawk when Philomela sings?,IH1 NG Z,ɪŋz,False,wings,sings,NOUN(wings) + PL(wings),VERB(sings) + PRES(sings),2,2
+323,645,646,"Man cares for all: to birds he gives his woods,","To beasts his pastures, and to fish his floods;",UH1 D Z,ʊdz,True,woods,floods,NOUN(woods) + PL(woods),NOUN(floods) + PL(floods),2,2
+324,647,648,"For some his interest prompts him to provide,","For more his pleasure, yet for more his pride:",AY1 D,aɪd,False,provide,pride,VERB(provide),NOUN(pride),1,1
+325,649,650,"All feed on one vain patron, and enjoy",The extensive blessing of his luxury.,,,False,,,,,0,0
+326,651,652,"That very life his learned hunger craves,","He saves from famine, from the savage saves;",EY1 V Z,eɪvz,False,craves,saves,NOUN(craves) + PL(craves),NOUN(saves) + PL(saves),2,2
+327,653,654,"Nay, feasts the animal he dooms his feast,","And, till he ends the being, makes it blest;",IY1 S T,ist,True,feast,blest,NOUN(feast),ADJ<SUPER>(blest),1,1
+328,655,656,"Which sees no more the stroke, or feels the pain,",Than favoured man by touch ethereal slain.,EY1 N,eɪn,False,pain,slain,NOUN(pain),PROPN(slain),1,1
+329,657,658,The creature had his feast of life before;,Thou too must perish when thy feast is o'er!,AA1 R,ɑɹ,True,before,o'er,ADV(before),PROPN(o'er),1,1
+330,659,660,"To each unthinking being, Heaven, a friend,",Gives not the useless knowledge of its end:,EH1 N D,ɛnd,False,friend,end,NOUN(friend),NOUN(end),1,1
+331,661,662,To man imparts it; but with such a view,"As, while he dreads it, makes him hope it too;",UW1,u,False,view,too,NOUN(view),ADV(too),1,1
+332,663,664,"The hour concealed, and so remote the fear,","Death still draws nearer, never seeming near.",IH1 R,ɪɹ,False,fear,near,NOUN(fear),ADJ(near),1,1
+333,665,666,Great standing miracle! that Heaven assigned,Its only thinking thing this turn of mind.,AY1 N D,aɪnd,False,assigned,mind,VERB(assigned) + PAST(assigned),NOUN(mind),2,1
+334,667,668,"II.  Whether with reason, or with instinct blest,","Know, all enjoy that power which suits them best;",EH1 S T,ɛst,False,blest,best,ADJ<SUPER>(blest),ADV<SUPER>(best),1,1
+335,669,670,"To bliss alike by that direction tend,",And find the means proportioned to their end.,EH1 N D,ɛnd,False,tend,end,VERB(tend),NOUN(end),1,1
+336,671,672,"Say, where full instinct is the unerring guide,",What pope or council can they need beside?,AY1 D,aɪd,False,guide,beside,NOUN(guide),ADV(beside),1,1
+337,673,674,"Reason, however able, cool at best,","Cares not for service, or but serves when pressed,",EH1 S T,ɛst,True,best,pressed,ADV<SUPER>(best),VERB(pressed) + PAST_PTCP(pressed),1,2
+338,675,676,"Stays till we call, and then not often near;","But honest instinct comes a volunteer,",IH1 R,ɪɹ,False,near,volunteer,ADJ(near),NOUN(volunteer),1,1
+339,677,678,"Sure never to o'er-shoot, but just to hit;",While still too wide or short is human wit;,IH1 T,ɪt,False,hit,wit,VERB(hit),NOUN(wit),1,1
+340,679,680,"Sure by quick nature happiness to gain,","Which heavier reason labours at in vain,",EY1 N,eɪn,False,gain,vain,VERB(gain),NOUN(vain),1,1
+341,681,682,"This too serves always, reason never long;","One must go right, the other may go wrong.",AA1 NG,ɑŋ,False,long,wrong,ADV(long),ADJ(wrong),1,1
+342,683,684,See then the acting and comparing powers,"One in their nature, which are two in ours;",AW1 ER0 Z,aʊɚz,False,powers,ours,NOUN(powers) + PL(powers),NOUN(ours) + PL(ours),2,2
+343,685,686,"And reason raise o'er instinct as you can,","In this 'tis God directs, in that 'tis man.",AE1 N,æn,False,can,man,AUX(can),NOUN(man),1,1
+344,687,688,Who taught the nations of the field and wood,"To shun their poison, and to choose their food?",UH1 D,ʊd,True,wood,food,NOUN(wood),NOUN(food),1,1
+345,689,690,"Prescient, the tides or tempests to withstand,","Build on the wave, or arch beneath the sand?",AE1 N D,ænd,False,withstand,sand,VERB(withstand),NOUN(sand),1,1
+346,691,692,"Who made the spider parallels design,","Sure as Demoivre, without rule or line?",AY1 N,aɪn,False,design,line,NOUN(design),NOUN(line),1,1
+347,693,694,"Who did the stork, Columbus-like, explore","Heavens not his own, and worlds unknown before?",AA1 R,ɑɹ,False,explore,before,VERB(explore),ADV(before),1,1
+348,695,696,"Who calls the council, states the certain day,","Who forms the phalanx, and who points the way?",EY1,eɪ,False,day,way,NOUN(day),NOUN(way),1,1
+349,697,698,III.  God in the nature of each being founds,"Its proper bliss, and sets its proper bounds:",AW1 N D Z,aʊndz,False,founds,bounds,NOUN(founds) + PL(founds),NOUN(bounds) + PL(bounds),2,2
+350,699,700,"But as He framed a whole, the whole to bless,",On mutual wants built mutual happiness:,EH1 S,ɛs,True,bless,happiness,VERB(bless),NOUN(happiness),1,1
+351,701,702,"So from the first, eternal order ran,","And creature linked to creature, man to man.",AE1 N,æn,False,ran,man,VERB<PAST>(ran),NOUN(man),1,1
+352,703,704,"Whate'er of life all-quickening ether keeps,","Or breathes through air, or shoots beneath the deeps,",IY1 P Z,ipz,False,keeps,deeps,VERB(keeps) + PRES(keeps),NOUN(deeps) + PL(deeps),2,2
+353,705,706,"Or pours profuse on earth, one nature feeds","The vital flame, and swells the genial seeds.",IY1 D Z,idz,False,feeds,seeds,VERB(feeds) + PRES(feeds),NOUN(seeds) + PL(seeds),2,2
+354,707,708,"Not man alone, but all that roam the wood,","Or wing the sky, or roll along the flood,",UH1 D,ʊd,True,wood,flood,NOUN(wood),NOUN(flood),1,1
+355,709,710,"Each loves itself, but not itself alone,","Each sex desires alike, till two are one.",OW1 N,oʊn,True,alone,one,ADV(alone),NUM(one),1,1
+356,711,712,Nor ends the pleasure with the fierce embrace;,"They love themselves, a third time, in their race.",EY1 S,eɪs,False,embrace,race,NOUN(embrace),NOUN(race),1,1
+357,713,714,"Thus beast and bird their common charge attend,","The mothers nurse it, and the sires defend;",EH1 N D,ɛnd,False,attend,defend,NOUN(attend),VERB(defend),1,1
+358,715,716,"The young dismissed to wander earth or air,","There stops the instinct, and there ends the care;",EH1 R,ɛɹ,False,air,care,NOUN(air),NOUN(care),1,1
+359,717,718,"The link dissolves, each seeks a fresh embrace,","Another love succeeds, another race.",EY1 S,eɪs,False,embrace,race,NOUN(embrace),NOUN(race),1,1
+360,719,720,A longer care man's helpless kind demands;,That longer care contracts more lasting bands:,AE1 N D Z,ændz,False,demands,bands,NOUN(demands) + PL(demands),NOUN(bands) + PL(bands),2,2
+361,721,722,"Reflection, reason, still the ties improve,",At once extend the interest and the love;,UW1 V,uv,True,improve,love,VERB(improve),NOUN(love),1,1
+362,723,724,"With choice we fix, with sympathy we burn;",Each virtue in each passion takes its turn;,ER1 N,ɝn,False,burn,turn,VERB(burn),NOUN(turn),1,1
+363,725,726,"And still new needs, new helps, new habits rise.",That graft benevolence on charities.,AY1 Z,aɪz,True,rise,charities,VERB(rise),NOUN<PL>(charities),1,1
+364,727,728,"Still as one brood, and as another rose,","These natural love maintained, habitual those.",OW1 Z,oʊz,False,rose,those,NOUN(rose),PRON(those),1,1
+365,729,730,"The last, scarce ripened into perfect man,",Saw helpless him from whom their life began:,AE1 N,æn,False,man,began,NOUN(man),VERB<PAST>(began),1,1
+366,731,732,"Memory and forecast just returns engage,","That pointed back to youth, this on to age;",EY1 JH,eɪdʒ,False,engage,age,VERB(engage),NOUN(age),1,1
+367,733,734,"While pleasure, gratitude, and hope combined,","Still spread the interest, and preserved the kind.",AY1 N D,aɪnd,False,combined,kind,VERB<PAST_PTCP>(combined),NOUN(kind),1,1
+368,735,736,"IV.  Nor think, in Nature's state they blindly trod;",The state of nature was the reign of God:,AA1 D,ɑd,False,trod,God,VERB(trod),PROPN(God),1,1
+369,737,738,"Self-love and social at her birth began,","Union the bond of all things, and of man.",AE1 N,æn,False,began,man,VERB<PAST>(began),NOUN(man),1,1
+370,739,740,"Pride then was not; nor arts, that pride to aid;","Man walked with beast, joint tenant of the shade;",EY1 D,eɪd,False,aid,shade,VERB(aid),NOUN(shade),1,1
+371,741,742,"The same his table, and the same his bed;","No murder clothed him, and no murder fed.",EH1 D,ɛd,False,bed,fed,NOUN(bed),VERB<PAST_PTCP>(fed),1,1
+372,743,744,"In the same temple, the resounding wood,",All vocal beings hymned their equal God:,,,False,,,,,0,0
+373,745,746,"The shrine with gore unstained, with gold undressed,","Unbribed, unbloody, stood the blameless priest:",EH1 S T,ɛst,True,undressed,priest,ADJ(undressed),NOUN(priest),1,1
+374,747,748,"Heaven's attribute was universal care,","And man's prerogative to rule, but spare.",EH1 R,ɛɹ,False,care,spare,NOUN(care),ADJ(spare),1,1
+375,749,750,Ah! how unlike the man of times to come!,Of half that live the butcher and the tomb;,AH1 M,ʌm,True,come,tomb,VERB(come),NOUN(tomb),1,1
+376,751,752,"Who, foe to nature, hears the general groan,","Murders their species, and betrays his own.",OW1 N,oʊn,False,groan,own,NOUN(groan),ADJ(own),1,1
+377,753,754,"But just disease to luxury succeeds,",And every death its own avenger breeds;,IY1 D Z,idz,False,succeeds,breeds,VERB(succeeds) + PRES(succeeds),NOUN(breeds) + PL(breeds),2,2
+378,755,756,"The fury-passions from that blood began,","And turned on man a fiercer savage, man.",AE1 N,æn,False,began,man,VERB<PAST>(began),NOUN(man),1,1
+379,757,758,See him from Nature rising slow to art!,To copy instinct then was reason's part;,AA1 R T,ɑɹt,False,art,part,NOUN(art),NOUN(part),1,1
+380,759,760,Thus then to man the voice of Nature spake--,"""Go, from the creatures thy instructions take:",,,False,,,,,0,0
+381,761,762,Learn from the birds what food the thickets yield;,Learn from the beasts the physic of the field;,IY1 L D,ild,False,yield,field,VERB(yield),NOUN(field),1,1
+382,763,764,Thy arts of building from the bee receive;,"Learn of the mole to plough, the worm to weave;",IY1 V,iv,False,receive,weave,VERB(receive),VERB(weave),1,1
+383,765,766,"Learn of the little nautilus to sail,","Spread the thin oar, and catch the driving gale.",EY1 L,eɪl,False,sail,gale,VERB(sail),NOUN(gale),1,1
+384,767,768,"Here too all forms of social union find,","And hence let reason, late, instruct mankind:",AY1 N D,aɪnd,False,find,mankind,VERB(find),NOUN(mankind),1,1
+385,769,770,Here subterranean works and cities see;,There towns aerial on the waving tree.,IY1,i,False,see,tree,VERB(see),NOUN(tree),1,1
+386,771,772,"Learn each small people's genius, policies,","The ant's republic, and the realm of bees;",IY0 Z,iz,False,policies,bees,NOUN(policies) + PL(policies),NOUN(bees) + PL(bees),2,2
+387,773,774,"How those in common all their wealth bestow,",And anarchy without confusion know;,OW1,oʊ,False,bestow,know,VERB(bestow),VERB(know),1,1
+388,775,776,"And these for ever, though a monarch reign,",Their separate cells and properties maintain.,EY1 N,eɪn,False,reign,maintain,NOUN(reign),VERB(maintain),1,1
+389,777,778,"Mark what unvaried laws preserve each state,","Laws wise as nature, and as fixed as fate.",EY1 T,eɪt,False,state,fate,NOUN(state),NOUN(fate),1,1
+390,779,780,"In vain thy reason finer webs shall draw,","Entangle justice in her net of law,",AA1,ɑ,False,draw,law,VERB(draw),NOUN(law),1,1
+391,781,782,"And right, too rigid, harden into wrong;","Still for the strong too weak, the weak too strong.",AA1 NG,ɑŋ,False,wrong,strong,NOUN(wrong),ADJ(strong),1,1
+392,783,784,"Yet go! and thus o'er all the creatures sway,",Thus let the wiser make the rest obey;,EY1,eɪ,False,sway,obey,VERB(sway),VERB(obey),1,1
+393,785,786,"And, for those arts mere instinct could afford,","Be crowned as monarchs, or as gods adored.""",AA1 R D,ɑɹd,False,afford,adored,VERB(afford),VERB(adored) + PAST(adored),1,2
+394,787,788,V.  Great Nature spoke; observant men obeyed;,"Cities were built, societies were made:",EY1 D,eɪd,False,obeyed,made,VERB(obeyed) + PAST(obeyed),VERB<PAST_PTCP>(made),2,1
+395,789,790,Here rose one little state: another near,"Grew by like means, and joined, through love or fear.",IH1 R,ɪɹ,False,near,fear,ADP(near),NOUN(fear),1,1
+396,791,792,"Did here the trees with ruddier burdens bend,",And there the streams in purer rills descend?,EH1 N D,ɛnd,False,bend,descend,VERB(bend),VERB(descend),1,1
+397,793,794,"What war could ravish, commerce could bestow,","And he returned a friend, who came a foe.",OW1,oʊ,False,bestow,foe,VERB(bestow),NOUN(foe),1,1
+398,795,796,"Converse and love mankind might strongly draw,","When love was liberty, and Nature law.",AA1,ɑ,False,draw,law,VERB(draw),NOUN(law),1,1
+399,797,798,"Thus States were formed; the name of king unknown,",'Till common interest placed the sway in one.,OW1 N,oʊn,True,unknown,one,ADJ(unknown),NUM(one),1,1
+400,799,800,"'Twas virtue only (or in arts or arms,","Diffusing blessings, or averting harms)",AA1 R M Z,ɑɹmz,False,arms,harms,NOUN(arms) + PL(arms),NOUN(harms) + PL(harms),2,2
+401,801,802,"The same which in a sire the sons obeyed,",A prince the father of a people made.,EY1 D,eɪd,False,obeyed,made,VERB(obeyed) + PAST(obeyed),VERB<PAST_PTCP>(made),2,1
+402,803,804,"VI.  Till then, by Nature crowned, each patriarch sate,","King, priest, and parent of his growing state;",EY1 T,eɪt,False,sate,state,NOUN(sate),NOUN(state),1,1
+403,805,806,"On him, their second providence, they hung,","Their law his eye, their oracle his tongue.",AH1 NG,ʌŋ,False,hung,tongue,VERB<PAST>(hung),NOUN(tongue),1,1
+404,807,808,"He from the wondering furrow called the food,","Taught to command the fire, control the flood,",UW1 D,ud,True,food,flood,NOUN(food),NOUN(flood),1,1
+405,809,810,"Draw forth the monsters of the abyss profound,",Or fetch the aerial eagle to the ground.,AW1 N D,aʊnd,False,profound,ground,ADJ(profound),NOUN(ground),1,1
+406,811,812,"Till drooping, sickening, dying they began",Whom they revered as God to mourn as man:,AE1 N,æn,False,began,man,VERB<PAST>(began),NOUN(man),1,1
+407,813,814,"Then, looking up, from sire to sire, explored","One great first Father, and that first adored.",AA1 R D,ɑɹd,False,explored,adored,VERB(explored) + PAST_PTCP(explored),VERB(adored) + PAST(adored),2,2
+408,815,816,"Or plain tradition that this all begun,",Conveyed unbroken faith from sire to son;,AH1 N,ʌn,False,begun,son,VERB<PAST>(begun),NOUN(son),1,1
+409,817,818,"The worker from the work distinct was known,",And simple reason never sought but one:,OW1 N,oʊn,True,known,one,VERB(known) + PAST_PTCP(known),NUM(one),2,1
+410,819,820,"Ere wit oblique had broke that steady light,","Man, like his Maker, saw that all was right;",AY1 T,aɪt,False,light,right,NOUN(light),ADJ(right),1,1
+411,821,822,"To virtue, in the paths of pleasure, trod,",And owned a Father when he owned a God.,AA1 D,ɑd,False,trod,God,PROPN(trod),PROPN(God),1,1
+412,823,824,"Love all the faith, and all the allegiance then;","For Nature knew no right divine in men,",EH1 N,ɛn,False,then,men,ADV(then),NOUN<PL>(men),1,1
+413,825,826,No ill could fear in God; and understood,A sovereign being but a sovereign good.,UH1 D,ʊd,False,understood,good,VERB<PAST>(understood),NOUN(good),1,1
+414,827,828,"True faith, true policy, united ran,","This was but love of God, and this of man.",AE1 N,æn,False,ran,man,VERB<PAST>(ran),NOUN(man),1,1
+415,829,830,"Who first taught souls enslaved, and realms undone,",The enormous faith of many made for one;,AH1 N,ʌn,False,undone,one,VERB<PAST>(undone),NUM(one),1,1
+416,831,832,"That proud exception to all Nature's laws,","To invert the world, and counter-work its cause?",AA1 Z,ɑz,False,laws,cause,NOUN(laws) + PL(laws),NOUN(cause),2,1
+417,833,834,"Force first made conquest, and that conquest, law;","Till superstition taught the tyrant awe,",AA1,ɑ,False,law,awe,NOUN(law),NOUN(awe),1,1
+418,835,836,"Then shared the tyranny, then lent it aid,","And gods of conquerors, slaves of subjects made:",EY1 D,eɪd,False,aid,made,NOUN(aid),VERB<PAST_PTCP>(made),1,1
+419,837,838,"She, 'midst the lightning's blaze, and thunder's sound,","When rocked the mountains, and when groaned the ground,",AW1 N D,aʊnd,False,sound,ground,NOUN(sound),NOUN(ground),1,1
+420,839,840,"She taught the weak to bend, the proud to pray,","To power unseen, and mightier far than they:",EY1,eɪ,False,pray,they,VERB(pray),PRON(they),1,1
+421,841,842,"She, from the rending earth and bursting skies,","Saw gods descend, and fiends infernal rise:",AY1 Z,aɪz,False,skies,rise,NOUN(skies) + PL(skies),NOUN(rise),2,1
+422,843,844,"Here fixed the dreadful, there the blest abodes;","Fear made her devils, and weak hope her gods;",OW1 D Z,oʊdz,True,abodes,gods,NOUN(abodes) + PL(abodes),NOUN(gods) + PL(gods),2,2
+423,845,846,"Gods partial, changeful, passionate, unjust,","Whose attributes were rage, revenge, or lust;",AH1 S T,ʌst,False,unjust,lust,ADJ(unjust),NOUN(lust),1,1
+424,847,848,"Such as the souls of cowards might conceive,","And, formed like tyrants, tyrants would believe.",IY1 V,iv,False,conceive,believe,VERB(conceive),VERB(believe),1,1
+425,849,850,"Zeal then, not charity, became the guide;","And hell was built on spite, and heaven on pride,",AY1 D,aɪd,False,guide,pride,NOUN(guide),NOUN(pride),1,1
+426,851,852,Then sacred seemed the ethereal vault no more;,"Altars grew marble then, and reeked with gore;",AA1 R,ɑɹ,False,more,gore,ADV(more),NOUN(gore),1,1
+427,853,854,Then first the flamen tasted living food;,Next his grim idol smeared with human blood;,UW1 D,ud,True,food,blood,NOUN(food),NOUN(blood),1,1
+428,855,856,"With heaven's own thunders shook the world below,",And played the god an engine on his foe.,OW1,oʊ,False,below,foe,ADV(below),NOUN(foe),1,1
+429,857,858,"So drives self-love, through just and through unjust,","To one man's power, ambition, lucre, lust:",AH1 S T,ʌst,False,unjust,lust,ADJ(unjust),NOUN(lust),1,1
+430,859,860,"The same self-love, in all, becomes the cause","Of what restrains him, government and laws.",AA1 Z,ɑz,False,cause,laws,NOUN(cause),NOUN(laws) + PL(laws),1,2
+431,861,862,"For, what one likes if others like as well,",What serves one will when many wills rebel?,EH1 L,ɛl,True,well,rebel,ADV(well),ADJ(rebel),1,1
+432,863,864,"How shall he keep, what, sleeping or awake,","A weaker may surprise, a stronger take?",EY1 K,eɪk,False,awake,take,ADJ(awake),NOUN(take),1,1
+433,865,866,His safety must his liberty restrain:,All join to guard what each desires to gain.,EY1 N,eɪn,False,restrain,gain,NOUN(restrain),VERB(gain),1,1
+434,867,868,"Forced into virtue thus by self-defence,",Even kings learned justice and benevolence:,EH1 N S,ɛns,True,defence,benevolence,NOUN(defence),NOUN(benevolence),1,1
+435,869,870,"Self-love forsook the path it first pursued,",And found the private in the public good.,UW1 D,ud,True,pursued,good,VERB(pursued) + PAST(pursued),NOUN(good),2,1
+436,871,872,"'Twas then, the studious head or generous mind,","Follower of God, or friend of human-kind,",AY1 N D,aɪnd,False,mind,kind,NOUN(mind),NOUN(kind),1,1
+437,873,874,"Poet or patriot, rose but to restore",The faith and moral Nature gave before;,AA1 R,ɑɹ,False,restore,before,VERB(restore),ADV(before),1,1
+438,875,876,"Re-lumed her ancient light, not kindled new;","If not God's image, yet His shadow drew:",UW1,u,False,new,drew,ADJ(new),VERB<PAST>(drew),1,1
+439,877,878,"Taught power's due use to people and to kings,","Taught nor to slack, nor strain its tender strings,",IH1 NG Z,ɪŋz,False,kings,strings,NOUN(kings) + PL(kings),NOUN(strings) + PL(strings),2,2
+440,879,880,"The less, or greater, set so justly true,",That touching one must strike the other too;,UW1,u,False,true,too,ADJ(true),ADV(too),1,1
+441,881,882,"Till jarring interests, of themselves create",The according music of a well-mixed state.,EY1 T,eɪt,False,create,state,VERB(create),NOUN(state),1,1
+442,883,884,"Such is the world's great harmony, that springs","From order, union, full consent of things:",IH1 NG Z,ɪŋz,False,springs,things,NOUN(springs) + PL(springs),NOUN(things) + PL(things),2,2
+443,885,886,"Where small and great, where weak and mighty, made","To serve, not suffer, strengthen, not invade;",EY1 D,eɪd,False,made,invade,VERB<PAST>(made),VERB(invade),1,1
+444,887,888,"More powerful each as needful to the rest,","And, in proportion as it blesses, blest;",EH1 S T,ɛst,False,rest,blest,NOUN(rest),ADJ<SUPER>(blest),1,1
+445,889,890,"Draw to one point, and to one centre bring","Beast, man, or angel, servant, lord, or king.",IH1 NG,ɪŋ,False,bring,king,VERB(bring),NOUN(king),1,1
+446,891,892,For forms of government let fools contest;,Whate'er is best administered is best:,EH1 S T,ɛst,False,contest,best,VERB(contest),ADJ<SUPER>(best),1,1
+447,893,894,For modes of faith let graceless zealots fight;,His can't be wrong whose life is in the right:,AY1 T,aɪt,False,fight,right,VERB(fight),NOUN(right),1,1
+448,895,896,"In faith and hope the world will disagree,",But all mankind's concern is charity:,IY1,i,False,disagree,charity,VERB(disagree),NOUN(charity),1,1
+449,897,898,All must be false that thwart this one great end;,"And all of God, that bless mankind or mend.",EH1 N D,ɛnd,False,end,mend,NOUN(end),VERB(mend),1,1
+450,899,900,"Man, like the generous vine, supported lives;",The strength he gains is from the embrace he gives.,IH1 V Z,ɪvz,False,lives,gives,NOUN<PL>(lives),VERB(gives) + PRES(gives),1,2
+451,901,902,"On their own axis as the planets run,",Yet make at once their circle round the sun;,AH1 N,ʌn,False,run,sun,VERB(run),NOUN(sun),1,1
+452,903,904,So two consistent motions act the soul;,"And one regards itself, and one the whole.",OW1 L,oʊl,False,soul,whole,NOUN(soul),NOUN(whole),1,1
+453,905,906,"Thus God and Nature linked the general frame,",And bade self-love and social be the same.,EY1 M,eɪm,False,frame,same,NOUN(frame),ADJ(same),1,1
+454,907,908,"Oh, happiness, our being's end and aim!","Good, pleasure, ease, content! whate'er thy name:",EY1 M,eɪm,False,aim,name,VERB(aim),NOUN(name),1,1
+455,909,910,"That something still which prompts the eternal sigh,","For which we bear to live, or dare to die,",AY1,aɪ,False,sigh,die,NOUN(sigh),VERB(die),1,1
+456,911,912,"Which still so near us, yet beyond us lies,","O'erlooked, seen double, by the fool, and wise.",AY1 Z,aɪz,False,lies,wise,NOUN(lies) + PL(lies),ADJ(wise),2,1
+457,913,914,"Plant of celestial seed! if dropped below,","Say, in what mortal soil thou deign'st to grow?",OW1,oʊ,False,below,grow,ADV(below),VERB(grow),1,1
+458,915,916,"Fair opening to some Court's propitious shine,",Or deep with diamonds in the flaming mine?,AY1 N,aɪn,False,shine,mine,NOUN(shine),NOUN(mine),1,1
+459,917,918,"Twined with the wreaths Parnassian laurels yield,",Or reaped in iron harvests of the field?,IY1 L D,ild,False,yield,field,NOUN(yield),NOUN(field),1,1
+460,919,920,"Where grows?--where grows it not?  If vain our toil,","We ought to blame the culture, not the soil:",OY1 L,ɔɪl,False,toil,soil,NOUN(toil),NOUN(soil),1,1
+461,921,922,"Fixed to no spot is happiness sincere,","'Tis nowhere to be found, or everywhere;",IH1 R,ɪɹ,True,sincere,everywhere,ADJ(sincere),ADV(everywhere),1,1
+462,923,924,"'Tis never to be bought, but always free,","And fled from monarchs, St. John! dwells with thee.",IY1,i,False,free,thee,ADJ(free),NOUN(thee),1,1
+463,925,926,Ask of the learned the way?  The learned are blind;,"This bids to serve, and that to shun mankind;",AY1 N D,aɪnd,False,blind,mankind,ADJ(blind),NOUN(mankind),1,1
+464,927,928,"Some place the bliss in action, some in ease,","Those call it pleasure, and contentment these;",IY1 Z,iz,False,ease,these,NOUN(ease),PRON(these),1,1
+465,929,930,"Some, sunk to beasts, find pleasure end in pain;","Some, swelled to gods, confess even virtue vain;",EY1 N,eɪn,False,pain,vain,NOUN(pain),ADJ(vain),1,1
+466,931,932,"Or indolent, to each extreme they fall,","To trust in everything, or doubt of all.",AA1 L,ɑl,False,fall,all,VERB(fall),PRON(all),1,1
+467,933,934,"Who thus define it, say they more or less","Than this, that happiness is happiness?",EH1 S,ɛs,True,less,happiness,ADJ(less),NOUN(happiness),1,1
+468,935,936,"Take Nature's path, and mad opinions leave;","All states can reach it, and all heads conceive;",IY1 V,iv,False,leave,conceive,VERB(leave),VERB(conceive),1,1
+469,937,938,"Obvious her goods, in no extreme they dwell;","There needs but thinking right, and meaning well;",EH1 L,ɛl,False,dwell,well,VERB(dwell),ADV(well),1,1
+470,939,940,"And mourn our various portions as we please,","Equal is common sense, and common ease.",IY1 Z,iz,False,please,ease,VERB(please),NOUN(ease),1,1
+471,941,942,"Remember, man, ""the Universal Cause","Acts not by partial, but by general laws;""",AA1 Z,ɑz,False,Cause,laws,PROPN(Cause),NOUN(laws) + PL(laws),1,2
+472,943,944,And makes what happiness we justly call,"Subsist not in the good of one, but all.",AA1 L,ɑl,False,call,all,VERB(call),PRON(all),1,1
+473,945,946,"There's not a blessing individuals find,",But some way leans and hearkens to the kind:,AY1 N D,aɪnd,False,find,kind,VERB(find),NOUN(kind),1,1
+474,947,948,"No bandit fierce, no tyrant mad with pride,","No caverned hermit, rests self-satisfied:",AY1 D,aɪd,False,pride,satisfied,NOUN(pride),ADJ(satisfied),1,1
+475,949,950,"Who most to shun or hate mankind pretend,","Seek an admirer, or would fix a friend:",EH1 N D,ɛnd,False,pretend,friend,NOUN(pretend),NOUN(friend),1,1
+476,951,952,"Abstract what others feel, what others think,","All pleasures sicken, and all glories sink:",IH1 NG K,ɪŋk,False,think,sink,VERB(think),VERB(sink),1,1
+477,953,954,"Each has his share; and who would more obtain,","Shall find, the pleasure pays not half the pain.",EY1 N,eɪn,False,obtain,pain,VERB(obtain),NOUN(pain),1,1
+478,955,956,"Order is Heaven's first law; and this confest,","Some are, and must be, greater than the rest,",IH0 S T,ɪst,True,confest,rest,NOUN(confest),NOUN(rest),1,1
+479,957,958,"More rich, more wise; but who infers from hence","That such are happier, shocks all common sense.",EH1 N S,ɛns,False,hence,sense,ADV(hence),NOUN(sense),1,1
+480,959,960,"Heaven to mankind impartial we confess,",If all are equal in their happiness:,EH1 S,ɛs,True,confess,happiness,VERB(confess),NOUN(happiness),1,1
+481,961,962,But mutual wants this happiness increase;,All Nature's difference keeps all Nature's peace.,IY1 S,is,False,increase,peace,NOUN(increase),NOUN(peace),1,1
+482,963,964,"Condition, circumstance is not the thing;","Bliss is the same in subject or in king,",IH1 NG,ɪŋ,False,thing,king,NOUN(thing),NOUN(king),1,1
+483,965,966,"In who obtain defence, or who defend,","In him who is, or him who finds a friend:",EH1 N D,ɛnd,False,defend,friend,VERB(defend),NOUN(friend),1,1
+484,967,968,Heaven breathes through every member of the whole,"One common blessing, as one common soul.",OW1 L,oʊl,False,whole,soul,NOUN(whole),NOUN(soul),1,1
+485,969,970,"But fortune's gifts if each alike possessed,","And each were equal, must not all contest?",EH1 S D,ɛsd,True,possessed,contest,VERB(possessed) + PAST(possessed),VERB(contest),2,1
+486,971,972,"If then to all men happiness was meant,",God in externals could not place content.,EH1 N T,ɛnt,False,meant,content,VERB<PAST_PTCP>(meant),NOUN(content),1,1
+487,973,974,"Fortune her gifts may variously dispose,","And these be happy called, unhappy those;",OW1 Z,oʊz,False,dispose,those,VERB(dispose),PRON(those),1,1
+488,975,976,"But Heaven's just balance equal will appear,","While those are placed in hope, and these in fear:",IH1 R,ɪɹ,False,appear,fear,VERB(appear),NOUN(fear),1,1
+489,977,978,"Nor present good or ill, the joy or curse,","But future views of better or of worse,",ER1 S,ɝs,False,curse,worse,NOUN(curse),ADJ<COMP>(worse),1,1
+490,979,980,"Oh, sons of earth! attempt ye still to rise,","By mountains piled on mountains, to the skies,",AY1 Z,aɪz,False,rise,skies,VERB(rise),NOUN(skies) + PL(skies),1,2
+491,981,982,"Heaven still with laughter the vain toil surveys,",And buries madmen in the heaps they raise.,EY1 Z,eɪz,False,surveys,raise,NOUN(surveys) + PL(surveys),VERB(raise),2,1
+492,983,984,"Know, all the good that individuals find,","Or God and Nature meant to mere mankind,",AY1 N D,aɪnd,False,find,mankind,VERB(find),NOUN(mankind),1,1
+493,985,986,"Reason's whole pleasure, all the joys of sense,","Lie in three words, health, peace, and competence.",EH1 N S,ɛns,True,sense,competence,NOUN(sense),NOUN(competence),1,1
+494,987,988,But health consists with temperance alone;,"And peace, oh, virtue! peace is all thy own.",OW1 N,oʊn,False,alone,own,ADV(alone),ADJ(own),1,1
+495,989,990,The good or bad the gifts of fortune gain;,"But these less taste them, as they worse obtain.",EY1 N,eɪn,False,gain,obtain,NOUN(gain),ADV(obtain),1,1
+496,991,992,"Say, in pursuit of profit or delight,","Who risk the most, that take wrong means, or right;",AY1 T,aɪt,False,delight,right,NOUN(delight),ADJ(right),1,1
+497,993,994,"Of vice or virtue, whether blessed or cursed,","Which meets contempt, or which compassion first?",ER1 S D,ɝsd,True,cursed,first,VERB(cursed) + PAST_PTCP(cursed),ADV(first),2,1
+498,995,996,"Count all the advantage prosperous vice attains,",'Tis but what virtue flies from and disdains:,EY1 N Z,eɪnz,False,attains,disdains,NOUN(attains) + PL(attains),NOUN(disdains) + PL(disdains),2,2
+499,997,998,"And grant the bad what happiness they would,","One they must want, which is, to pass for good.",UH1 D,ʊd,False,would,good,AUX(would),NOUN(good),1,1
+500,999,1000,"Oh, blind to truth, and God's whole scheme below,","Who fancy bliss to vice, to virtue woe!",OW1,oʊ,False,below,woe,ADV(below),NOUN(woe),1,1
+501,1001,1002,"Who sees and follows that great scheme the best,","Best knows the blessing, and will most be blest.",EH1 S T,ɛst,True,best,blest,ADJ<SUPER>(best),VERB(blest) + PAST_PTCP(blest),1,2
+502,1003,1004,"But fools the good alone unhappy call,",For ills or accidents that chance to all.,AA1 L,ɑl,False,call,all,NOUN(call),PRON(all),1,1
+503,1005,1006,"See Falkland dies, the virtuous and the just!",See god-like Turenne prostrate on the dust!,AH1 S T,ʌst,False,just,dust,ADJ(just),NOUN(dust),1,1
+504,1007,1008,See Sidney bleeds amid the martial strife!,"Was this their virtue, or contempt of life?",AY1 F,aɪf,False,strife,life,NOUN(strife),NOUN(life),1,1
+505,1009,1010,"Say, was it virtue, more though Heaven ne'er gave,",Lamented Digby! sunk thee to the grave?,EY1 V,eɪv,False,gave,grave,VERB<PAST>(gave),NOUN(grave),1,1
+506,1011,1012,"Tell me, if virtue made the son expire,","Why, full of days and honour, lives the sire?",,,False,,,,,0,0
+507,1013,1014,"Why drew Marseilles' good bishop purer breath,","When Nature sickened, and each gale was death?",EH1 TH,ɛθ,False,breath,death,NOUN(breath),NOUN(death),1,1
+508,1015,1016,Or why so long (in life if long can be),Lent Heaven a parent to the poor and me?,IY1,i,False,be,me,AUX(be),PRON(me),1,1
+509,1017,1018,What makes all physical or moral ill?,"There deviates Nature, and here wanders will.",IH1 L,ɪl,False,ill,will,ADJ(ill),AUX(will),1,1
+510,1019,1020,"God sends not ill; if rightly understood,","Or partial ill is universal good,",UH1 D,ʊd,False,understood,good,VERB<PAST>(understood),NOUN(good),1,1
+511,1021,1022,"Or change admits, or Nature lets it fall;","Short, and but rare, till man improved it all.",IH1 T F AA1 L,ɪtfɑl,True,it | fall,it | all,PRON(it) + VERB(fall),PRON(it) + PRON(all),2,2
+512,1023,1024,We just as wisely might of Heaven complain,"That righteous Abel was destroyed by Cain,",EY1 N,eɪn,False,complain,Cain,VERB(complain),PROPN(Cain),1,1
+513,1025,1026,As that the virtuous son is ill at ease,When his lewd father gave the dire disease.,IY1 Z,iz,False,ease,disease,NOUN(ease),NOUN(disease),1,1
+514,1027,1028,"Think we, like some weak prince, the Eternal Cause",Prone for His favourites to reverse His laws?,AA1 Z,ɑz,False,Cause,laws,PROPN(Cause),NOUN(laws) + PL(laws),1,2
+515,1029,1030,"Shall burning Etna, if a sage requires,","Forget to thunder, and recall her fires?",AY1 ER0 Z,aɪɚz,False,requires,fires,VERB<PRES>(requires),NOUN(fires) + PL(fires),1,2
+516,1031,1032,"On air or sea new motions be imprest,","Oh, blameless Bethel! to relieve thy breast?",EH1 S T,ɛst,False,imprest,breast,ADJ<SUPER>(imprest),NOUN(breast),1,1
+517,1033,1034,"When the loose mountain trembles from on high,","Shall gravitation cease, if you go by?",AY1,aɪ,False,high,by,ADJ(high),ADV(by),1,1
+518,1035,1036,"Or some old temple, nodding to its fall,",For Chartres' head reserve the hanging wall?,AA1 L,ɑl,False,fall,wall,NOUN(fall),NOUN(wall),1,1
+519,1037,1038,But still this world (so fitted for the knave),Contents us not.  A better shall we have?,EY1 V,eɪv,True,knave,have,NOUN(knave),VERB(have),1,1
+520,1039,1040,A kingdom of the just then let it be:,But first consider how those just agree.,IY1,i,False,be,agree,AUX(be),VERB(agree),1,1
+521,1041,1042,The good must merit God's peculiar care:,"But who, but God, can tell us who they are?",,,False,,,,,0,0
+522,1043,1044,One thinks on Calvin Heaven's own spirit fell;,Another deems him instrument of hell;,EH1 L,ɛl,False,fell,hell,VERB<PAST>(fell),NOUN(hell),1,1
+523,1045,1046,"If Calvin feel Heaven's blessing, or its rod.","This cries there is, and that, there is no God.",AA1 D,ɑd,False,rod,God,NOUN(rod),PROPN(God),1,1
+524,1047,1048,"What shocks one part will edify the rest,",Nor with one system can they all be blest.,EH1 S T,ɛst,False,rest,blest,NOUN(rest),ADJ<SUPER>(blest),1,1
+525,1049,1050,"The very best will variously incline,","And what rewards your virtue, punish mine.",AY1 N,aɪn,False,incline,mine,VERB(incline),PRON(mine),1,1
+526,1051,1052,"Whatever is, is right.  This world, 'tis true,",Was made for Caesar--but for Titus too:,UW1,u,False,true,too,ADJ(true),ADV(too),1,1
+527,1053,1054,"And which more blest? who chained his country, say,",Or he whose virtue sighed to lose a day?,EY1,eɪ,False,say,day,INTJ(say),NOUN(day),1,1
+528,1055,1056,"""But sometimes virtue starves, while vice is fed.""",What then?  Is the reward of virtue bread?,EH1 D,ɛd,False,fed,bread,VERB<PAST_PTCP>(fed),NOUN(bread),1,1
+529,1057,1058,"That, vice may merit, 'tis the price of toil;","The knave deserves it, when he tills the soil,",OY1 L,ɔɪl,False,toil,soil,NOUN(toil),NOUN(soil),1,1
+530,1059,1060,"The knave deserves it, when he tempts the main,","Where folly fights for kings, or dives for gain.",EY1 N,eɪn,False,main,gain,ADJ(main),NOUN(gain),1,1
+531,1061,1062,"The good man may be weak, be indolent;","Nor is his claim to plenty, but content.",AH0 N T,ənt,True,indolent,content,ADJ(indolent),NOUN(content),1,1
+532,1063,1064,"But grant him riches, your demand is o'er?","""No--shall the good want health, the good want power?""",OW0 ER1,oʊɝ,True,o'er,power,PROPN(o'er),NOUN(power),1,1
+533,1065,1066,"Add health, and power, and every earthly thing,","""Why bounded power? why private? why no king?""",IH1 NG,ɪŋ,False,thing,king,NOUN(thing),NOUN(king),1,1
+534,1067,1068,"Nay, why external for internal given?","Why is not man a god, and earth a heaven?",IH1 V AH0 N,ɪvən,True,given,heaven,VERB(given) + PAST_PTCP(given),PROPN(heaven),2,1
+535,1069,1070,"Who ask and reason thus, will scarce conceive","God gives enough, while He has more to give:",IY1 V,iv,True,conceive,give,VERB(conceive),VERB(give),1,1
+536,1071,1072,"Immense the power, immense were the demand;","Say, at what part of nature will they stand?",AE1 N D,ænd,False,demand,stand,NOUN(demand),VERB(stand),1,1
+537,1073,1074,"What nothing earthly gives, or can destroy,","The soul's calm sunshine, and the heartfelt joy,",OY1,ɔɪ,False,destroy,joy,VERB(destroy),NOUN(joy),1,1
+538,1075,1076,Is virtue's prize: A better would you fix?,"Then give humility a coach and six,",IH1 K S,ɪks,False,fix,six,VERB(fix),NUM(six),1,1
+539,1077,1078,"Justice a conqueror's sword, or truth a gown,","Or public spirit its great cure, a crown.",AW1 N,aʊn,False,gown,crown,NOUN(gown),NOUN(crown),1,1
+540,1079,1080,"Weak, foolish man! will heaven reward us there",With the same trash mad mortals wish for here?,EH1 R,ɛɹ,True,there,here,ADV(there),ADV(here),1,1
+541,1081,1082,"The boy and man an individual makes,",Yet sighest thou now for apples and for cakes?,EY1 K Z,eɪkz,False,makes,cakes,VERB(makes) + PRES(makes),NOUN(cakes) + PL(cakes),2,2
+542,1083,1084,"Go, like the Indian, in another life","Expect thy dog, thy bottle, and thy wife:",AY1 F,aɪf,False,life,wife,NOUN(life),NOUN(wife),1,1
+543,1085,1086,"As well as dream such trifles are assigned,","As toys and empires, for a God-like mind.",AY1 N D,aɪnd,False,assigned,mind,VERB(assigned) + PAST_PTCP(assigned),NOUN(mind),2,1
+544,1087,1088,"Rewards, that either would to virtue bring","No joy, or be destructive of the thing:",IH1 NG,ɪŋ,False,bring,thing,VERB(bring),NOUN(thing),1,1
+545,1089,1090,How oft by these at sixty are undone,The virtues of a saint at twenty-one!,AH1 N,ʌn,False,undone,one,VERB<PAST_PTCP>(undone),NUM(one),1,1
+546,1091,1092,"To whom can riches give repute or trust,","Content, or pleasure, but the good and just?",AH1 S T,ʌst,False,trust,just,NOUN(trust),ADV(just),1,1
+547,1093,1094,"Judges and senates have been bought for gold,",Esteem and love were never to be sold.,OW1 L D,oʊld,False,gold,sold,NOUN(gold),VERB<PAST_PTCP>(sold),1,1
+548,1095,1096,"Oh, fool! to think God hates the worthy mind,","The lover and the love of human kind,",AY1 N D,aɪnd,False,mind,kind,NOUN(mind),NOUN(kind),1,1
+549,1097,1098,"Whose life is healthful, and whose conscience clear,",Because he wants a thousand pounds a year.,IH1 R,ɪɹ,False,clear,year,ADJ(clear),NOUN(year),1,1
+550,1099,1100,Honour and shame from no condition rise;,"Act well your part, there all the honour lies.",AY1 Z,aɪz,False,rise,lies,NOUN(rise),VERB(lies) + PRES(lies),1,2
+551,1101,1102,"Fortune in men has some small difference made,","One flaunts in rags, one flutters in brocade;",EY1 D,eɪd,False,made,brocade,VERB<PAST_PTCP>(made),NOUN(brocade),1,1
+552,1103,1104,"The cobbler aproned, and the parson gowned,","The friar hooded, and the monarch crowned,",AW1 N D,aʊnd,False,gowned,crowned,VERB(gowned) + PAST(gowned),VERB(crowned) + PAST(crowned),2,2
+553,1105,1106,"""What differ more (you cry) than crown and cowl?""","I'll tell you, friend! a wise man and a fool.",,,False,,,,,0,0
+554,1107,1108,"You'll find, if once the monarch acts the monk,","Or, cobbler-like, the parson will be drunk,",AH1 NG K,ʌŋk,False,monk,drunk,NOUN(monk),ADJ(drunk),1,1
+555,1109,1110,"Worth makes the man, and want of it, the fellow;",The rest is all but leather or prunella.,EH1 L OW0,ɛloʊ,True,fellow,prunella,NOUN(fellow),PROPN(prunella),1,1
+556,1111,1112,"Stuck o'er with titles and hung round with strings,","That thou mayest be by kings, or wh***s of kings.",IH1 NG Z,ɪŋz,False,strings,kings,NOUN(strings) + PL(strings),NOUN(kings) + PL(kings),2,2
+557,1113,1114,"Boast the pure blood of an illustrious race,",In quiet flow from Lucrece to Lucrece;,EY1 S,eɪs,True,race,Lucrece,NOUN(race),PROPN(Lucrece),1,1
+558,1115,1116,"But by your fathers' worth if yours you rate,",Count me those only who were good and great.,EY1 T,eɪt,False,rate,great,VERB(rate),ADJ(great),1,1
+559,1117,1118,"Go! if your ancient, but ignoble blood","Has crept through scoundrels ever since the flood,",AH1 D,ʌd,False,blood,flood,NOUN(blood),NOUN(flood),1,1
+560,1119,1120,Go! and pretend your family is young;,"Nor own, your fathers have been fools so long.",AH1 NG,ʌŋ,True,young,long,ADJ(young),ADV(long),1,1
+561,1121,1122,"What can ennoble sots, or slaves, or cowards?",Alas! not all the blood of all the Howards.,AW1 ER0 D Z,aʊɚdz,False,cowards,Howards,NOUN(cowards) + PL(cowards),NOUN(Howards) + PL(Howards),2,2
+562,1123,1124,Look next on greatness; say where greatness lies?,"""Where, but among the heroes and the wise?""",AY1 Z,aɪz,False,lies,wise,VERB(lies) + PRES(lies),ADJ(wise),2,1
+563,1125,1126,"Heroes are much the same, the points agreed,",From Macedonia's madman to the Swede;,IY1 D,id,False,agreed,Swede,VERB(agreed) + PAST(agreed),NOUN(Swede),2,1
+564,1127,1128,"The whole strange purpose of their lives, to find","Or make, an enemy of all mankind?",AY1 N D,aɪnd,False,find,mankind,VERB(find),NOUN(mankind),1,1
+565,1129,1130,"Not one looks backward, onward still he goes,",Yet ne'er looks forward farther than his nose.,OW1 Z,oʊz,False,goes,nose,VERB(goes) + PRES(goes),NOUN(nose),2,1
+566,1131,1132,No less alike the politic and wise;,"All sly slow things, with circumspective eyes;",AY1 Z,aɪz,False,wise,eyes,ADJ(wise),NOUN(eyes) + PL(eyes),1,2
+567,1133,1134,"Men in their loose unguarded hours they take,","Not that themselves are wise, but others weak.",EY1 K,eɪk,True,take,weak,VERB(take),ADJ(weak),1,1
+568,1135,1136,"But grant that those can conquer, these can cheat;",'Tis phrase absurd to call a villain great:,IY1 T,it,True,cheat,great,VERB(cheat),ADJ(great),1,1
+569,1137,1138,"Who wickedly is wise, or madly brave,","Is but the more a fool, the more a knave.",EY1 V,eɪv,False,brave,knave,ADJ(brave),NOUN(knave),1,1
+570,1139,1140,"Who noble ends by noble means obtains,","Or failing, smiles in exile or in chains,",EY1 N Z,eɪnz,False,obtains,chains,NOUN(obtains) + PL(obtains),NOUN(chains) + PL(chains),2,2
+571,1141,1142,"Like good Aurelius let him reign, or bleed","Like Socrates, that man is great indeed.",IY1 D,id,False,bleed,indeed,VERB(bleed),ADV(indeed),1,1
+572,1143,1144,"What's fame? a fancied life in others' breath,","A thing beyond us, even before our death.",EH1 TH,ɛθ,False,breath,death,NOUN(breath),NOUN(death),1,1
+573,1145,1146,"Just what you hear, you have, and what's unknown","The same (my Lord) if Tully's, or your own.",OW1 N,oʊn,False,unknown,own,ADJ(unknown),ADJ(own),1,1
+574,1147,1148,All that we feel of it begins and ends,In the small circle of our foes or friends;,EH1 N D Z,ɛndz,False,ends,friends,VERB(ends) + PRES(ends),NOUN(friends) + PL(friends),2,2
+575,1149,1150,To all beside as much an empty shade,"An Eugene living, as a Caesar dead;",EY1 D,eɪd,True,shade,dead,NOUN(shade),ADJ(dead),1,1
+576,1151,1152,"Alike or when, or where, they shone, or shine,","Or on the Rubicon, or on the Rhine.",AY1 N,aɪn,False,shine,Rhine,VERB(shine),PROPN(Rhine),1,1
+577,1153,1154,"A wit's a feather, and a chief a rod;",An honest man's the noblest work of God.,AA1 D,ɑd,False,rod,God,NOUN(rod),PROPN(God),1,1
+578,1155,1156,"Fame but from death a villain's name can save,",As justice tears his body from the grave;,EY1 V,eɪv,False,save,grave,VERB(save),NOUN(grave),1,1
+579,1157,1158,"When what the oblivion better were resigned,","Is hung on high, to poison half mankind.",AY1 N D,aɪnd,False,resigned,mankind,VERB(resigned) + PAST_PTCP(resigned),NOUN(mankind),2,1
+580,1159,1160,"All fame is foreign, but of true desert;","Plays round the head, but comes not to the heart:",ER0 T,ɚt,True,desert,heart,NOUN(desert),NOUN(heart),1,1
+581,1161,1162,One self-approving hour whole years outweighs,"Of stupid starers, and of loud huzzas;",EY2 Z,eɪz,True,outweighs,huzzas,VERB(outweighs),NOUN(huzzas) + PL(huzzas),1,2
+582,1163,1164,"And more true joy Marcellus exiled feels,",Than Caesar with a senate at his heels.,IY1 L Z,ilz,False,feels,heels,VERB(feels) + PRES(feels),NOUN(heels) + PL(heels),2,2
+583,1165,1166,In parts superior what advantage lies?,Tell (for you can) what is it to be wise?,AY1 Z,aɪz,False,lies,wise,VERB(lies) + PRES(lies),ADJ(wise),2,1
+584,1167,1168,'Tis but to know how little can be known;,"To see all others' faults, and feel our own;",OW1 N,oʊn,False,known,own,VERB(known) + PAST_PTCP(known),ADJ(own),2,1
+585,1169,1170,"Condemned in business or in arts to drudge,",Without a second or without a judge;,AH1 JH,ʌdʒ,False,drudge,judge,VERB(drudge),NOUN(judge),1,1
+586,1171,1172,"Truths would you teach or save a sinking land,","All fear, none aid you, and few understand.",AE1 N D,ænd,False,land,understand,NOUN(land),NOUN(understand),1,1
+587,1173,1174,Painful pre-eminence! yourself to view,"Above life's weakness, and its comforts too.",UW1,u,False,view,too,VERB(view),ADV(too),1,1
+588,1175,1176,"Bring, then, these blessings to a strict account;",Make fair deductions; see to what they mount;,AW1 N T,aʊnt,False,account,mount,NOUN(account),VERB(mount),1,1
+589,1177,1178,How much of other each is sure to cost;,How each for other oft is wholly lost;,AA1 S T,ɑst,False,cost,lost,VERB(cost),VERB<PAST_PTCP>(lost),1,1
+590,1179,1180,How inconsistent greater goods with these;,"How sometimes life is risked, and always ease;",IY1 Z,iz,False,these,ease,PRON(these),NOUN(ease),1,1
+591,1181,1182,"Think, and if still the things thy envy call,","Say, would'st thou be the man to whom they fall?",AA1 L,ɑl,False,call,fall,NOUN(call),VERB(fall),1,1
+592,1183,1184,"To sigh for ribands if thou art so silly,","Mark how they grace Lord Umbra, or Sir Billy:",IH1 L IY0,ɪli,False,silly,Billy,ADJ(silly),PROPN(Billy),1,1
+593,1185,1186,Is yellow dirt the passion of thy life?,"Look but on Gripus, or on Gripus' wife;",AY1 F,aɪf,False,life,wife,NOUN(life),NOUN(wife),1,1
+594,1187,1188,"If parts allure thee, think how Bacon shined,","The wisest, brightest, meanest of mankind:",AY1 N D,aɪnd,False,shined,mankind,VERB(shined) + PAST(shined),NOUN(mankind),2,1
+595,1189,1190,"Or ravished with the whistling of a name,",See Cromwell; damned to everlasting fame!,EY1 M,eɪm,False,name,fame,NOUN(name),NOUN(fame),1,1
+596,1191,1192,"If all, united, thy ambition call,",From ancient story learn to scorn them all.,AA1 L,ɑl,False,call,all,NOUN(call),PRON(all),1,1
+597,1193,1194,"There, in the rich, the honoured, famed, and great,",See the false scale of happiness complete!,EY1 T,eɪt,True,great,complete,ADJ(great),ADJ(complete),1,1
+598,1195,1196,"In hearts of kings, or arms of queens who lay,","How happy! those to ruin, these betray.",EY1,eɪ,False,lay,betray,VERB<PAST>(lay),NOUN(betray),1,1
+599,1197,1198,"Mark by what wretched steps their glory grows,",From dirt and seaweed as proud Venice rose;,OW1 Z,oʊz,False,grows,rose,VERB(grows) + PRES(grows),VERB<PAST>(rose),2,1
+600,1199,1200,"In each how guilt and greatness equal ran,","And all that raised the hero, sunk the man:",AE1 N,æn,False,ran,man,NOUN(ran),NOUN(man),1,1
+601,1201,1202,"Now Europe's laurels on their brows behold,","But stained with blood, or ill exchanged for gold;",OW1 L D,oʊld,False,behold,gold,ADV(behold),NOUN(gold),1,1
+602,1203,1204,"Then see them broke with toils or sunk with ease,",Or infamous for plundered provinces.,IY1 Z,iz,True,ease,provinces,NOUN(ease),PL(provinces),1,1
+603,1205,1206,"Oh, wealth ill-fated! which no act of fame","E'er taught to shine, or sanctified from shame;",EY1 M,eɪm,False,fame,shame,NOUN(fame),NOUN(shame),1,1
+604,1207,1208,What greater bliss attends their close of life?,"Some greedy minion, or imperious wife.",AY1 F,aɪf,False,life,wife,NOUN(life),NOUN(wife),1,1
+605,1209,1210,"The trophied arches, storeyed halls invade",And haunt their slumbers in the pompous shade.,EY1 D,eɪd,False,invade,shade,VERB(invade),NOUN(shade),1,1
+606,1211,1212,"Alas! not dazzled with their noontide ray,",Compute the morn and evening to the day;,EY1,eɪ,False,ray,day,NOUN(ray),NOUN(day),1,1
+607,1213,1214,"The whole amount of that enormous fame,","A tale, that blends their glory with their shame;",EY1 M,eɪm,False,fame,shame,NOUN(fame),NOUN(shame),1,1
+608,1215,1216,"Know, then, this truth (enough for man to know)","""Virtue alone is happiness below.""",OW1,oʊ,False,know,below,VERB(know),ADV(below),1,1
+609,1217,1218,"The only point where human bliss stands still,",And tastes the good without the fall to ill;,IH1 L,ɪl,False,still,ill,ADV(still),ADJ(ill),1,1
+610,1219,1220,"Where only merit constant pay receives,","Is blest in what it takes, and what it gives;",IY1 V Z,ivz,True,receives,gives,NOUN(receives) + PL(receives),VERB(gives) + PRES(gives),2,2
+611,1221,1222,"The joy unequalled, if its end it gain,","And if it lose, attended with no pain;",EY1 N,eɪn,False,gain,pain,VERB(gain),NOUN(pain),1,1
+612,1223,1224,"Without satiety, though e'er so blessed,",And but more relished as the more distressed:,EH1 S D,ɛsd,True,blessed,distressed,VERB(blessed) + PAST(blessed),ADJ(distressed),2,1
+613,1225,1226,"The broadest mirth unfeeling folly wears,",Less pleasing far than virtue's very tears:,EH1 R Z,ɛɹz,False,wears,tears,VERB(wears) + PRES(wears),NOUN<PL>(tears),2,1
+614,1227,1228,"Good, from each object, from each place acquired","For ever exercised, yet never tired;",AY1 ER0 D,aɪɚd,False,acquired,tired,VERB(acquired) + PAST(acquired),ADJ(tired),2,1
+615,1229,1230,"Never elated, while one man's oppressed;",Never dejected while another's blessed;,EH1 S T,ɛst,True,oppressed,blessed,ADJ(oppressed),VERB(blessed) + PAST_PTCP(blessed),1,2
+616,1231,1232,"And where no wants, no wishes can remain,","Since but to wish more virtue, is to gain.",EY1 N,eɪn,False,remain,gain,VERB(remain),VERB(gain),1,1
+617,1233,1234,See the sole bliss Heaven could on all bestow!,"Which who but feels can taste, but thinks can know:",OW1,oʊ,False,bestow,know,VERB(bestow),VERB(know),1,1
+618,1235,1236,"Yet poor with fortune, and with learning blind,","The bad must miss; the good, untaught, will find;",AY1 N D,aɪnd,False,blind,find,ADJ(blind),VERB(find),1,1
+619,1237,1238,"Slave to no sect, who takes no private road,",But looks through Nature up to Nature's God;,OW1 D,oʊd,True,road,God,NOUN(road),PROPN(God),1,1
+620,1239,1240,"Pursues that chain which links the immense design,","Joins heaven and earth, and mortal and divine;",AY1 N,aɪn,False,design,divine,NOUN(design),ADJ(divine),1,1
+621,1241,1242,"Sees, that no being any bliss can know,","But touches some above, and some below;",OW1,oʊ,False,know,below,VERB(know),ADV(below),1,1
+622,1243,1244,"Learns, from this union of the rising whole,","The first, last purpose of the human soul;",OW1 L,oʊl,False,whole,soul,NOUN(whole),NOUN(soul),1,1
+623,1245,1246,"And knows, where faith, law, morals, all began,","All end, in love of God, and love of man.",AE1 N,æn,False,began,man,VERB<PAST>(began),NOUN(man),1,1
+624,1247,1248,"For Him alone, hope leads from goal to goal,","And opens still, and opens on his soul!",OW1 L,oʊl,False,goal,soul,NOUN(goal),NOUN(soul),1,1
+625,1249,1250,"Till lengthened on to faith, and unconfined,",It pours the bliss that fills up all the mind,AY1 N D,aɪnd,False,unconfined,mind,ADJ(unconfined),NOUN(mind),1,1
+626,1251,1252,"He sees, why Nature plants in man alone","Hope of known bliss, and faith in bliss unknown:",OW1 N,oʊn,False,alone,unknown,ADV(alone),ADJ(unknown),1,1
+627,1253,1254,"(Nature, whose dictates to no other kind","Are given in vain, but what they seek they find)",AY1 N D,aɪnd,False,kind,find,NOUN(kind),VERB(find),1,1
+628,1255,1256,Wise is her present; she connects in this,His greatest virtue with his greatest bliss;,IH1 S,ɪs,False,this,bliss,PRON(this),NOUN(bliss),1,1
+629,1257,1258,"At once his own bright prospect to be blest,",And strongest motive to assist the rest.,EH1 S D,ɛsd,True,blest,rest,VERB(blest) + PAST_PTCP(blest),NOUN(rest),2,1
+630,1259,1260,"Self-love thus pushed to social, to divine,",Gives thee to make thy neighbour's blessing thine.,AY1 N,aɪn,False,divine,thine,VERB(divine),ADV(thine),1,1
+631,1261,1262,Is this too little for the boundless heart?,"Extend it, let thy enemies have part:",AA1 R T,ɑɹt,False,heart,part,NOUN(heart),NOUN(part),1,1
+632,1263,1264,"Grasp the whole worlds of reason, life, and sense,",In one close system of benevolence:,EH1 N S,ɛns,True,sense,benevolence,NOUN(sense),NOUN(benevolence),1,1
+633,1265,1266,"Happier as kinder, in whate'er degree,",And height of bliss but height of charity.,IY1,i,False,degree,charity,NOUN(degree),NOUN(charity),1,1
+634,1267,1268,God loves from whole to parts: but human soul,Must rise from individual to the whole.,OW1 L,oʊl,False,soul,whole,NOUN(soul),NOUN(whole),1,1
+635,1269,1270,"Self-love but serves the virtuous mind to wake,",As the small pebble stirs the peaceful lake!,EY1 K,eɪk,False,wake,lake,VERB(wake),NOUN(lake),1,1
+636,1271,1272,"The centre moved, a circle straight succeeds,","Another still, and still another spreads;",IY1 D Z,idz,True,succeeds,spreads,VERB(succeeds) + PRES(succeeds),NOUN(spreads) + PL(spreads),2,2
+637,1273,1274,"Friend, parent, neighbour, first it will embrace;",His country next; and next all human race;,EY1 S,eɪs,False,embrace,race,VERB(embrace),NOUN(race),1,1
+638,1275,1276,"Wide and more wide, the o'erflowings of the mind","Take every creature in, of every kind;",AY1 N D,aɪnd,False,mind,kind,NOUN(mind),NOUN(kind),1,1
+639,1277,1278,"Earth smiles around, with boundless bounty blest,",And Heaven beholds its image in his breast.,EH1 S T,ɛst,False,blest,breast,ADJ<SUPER>(blest),NOUN(breast),1,1
+640,1279,1280,"Come, then, my friend! my genius! come along;","Oh, master of the poet, and the song!",AA1 NG,ɑŋ,False,along,song,ADV(along),NOUN(song),1,1
+641,1281,1282,"And while the muse now stoops, or now ascends,","To man's low passions, or their glorious ends,",EH1 N D Z,ɛndz,False,ascends,ends,VERB(ascends) + PRES(ascends),NOUN(ends) + PL(ends),2,2
+642,1283,1284,"Teach me, like thee, in various nature wise,","To fall with dignity, with temper rise;",AY1 Z,aɪz,False,wise,rise,ADJ(wise),NOUN(rise),1,1
+643,1285,1286,"Formed by thy converse, happily to steer","From grave to gay, from lively to severe;",IH1 R,ɪɹ,False,steer,severe,VERB(steer),ADJ(severe),1,1
+644,1287,1288,"Correct with spirit, eloquent with ease,","Intent to reason, or polite to please.",IY1 Z,iz,False,ease,please,NOUN(ease),VERB(please),1,1
+645,1289,1290,Oh! while along the stream of time thy name,"Expanded flies, and gathers all its fame,",EY1 M,eɪm,False,name,fame,NOUN(name),NOUN(fame),1,1
+646,1291,1292,"Say, shall my little bark attendant sail,","Pursue the triumph, and partake the gale?",EY1 L,eɪl,False,sail,gale,NOUN(sail),NOUN(gale),1,1
+647,1293,1294,"When statesmen, heroes, kings, in dust repose,","Whose sons shall blush their fathers were thy foes,",OW1 Z,oʊz,False,repose,foes,VERB(repose),NOUN(foes) + PL(foes),1,2
+648,1295,1296,Shall then this verse to future age pretend,"Thou wert my guide, philosopher, and friend?",EH1 N D,ɛnd,False,pretend,friend,VERB(pretend),NOUN(friend),1,1
+649,1297,1298,"That urged by thee, I turned the tuneful art","From sounds to things, from fancy to the heart;",AA1 R T,ɑɹt,False,art,heart,NOUN(art),NOUN(heart),1,1
+650,1299,1300,From wit's false mirror held up Nature's light;,"Showed erring pride, whatever is, is right;",AY1 T,aɪt,False,light,right,NOUN(light),ADJ(right),1,1
+651,1301,1302,"That reason, passion, answer one great aim;",That true self-love and social are the same;,EY1 M,eɪm,False,aim,same,NOUN(aim),ADJ(same),1,1
+652,1303,1304,That virtue only makes our bliss below;,"And all our knowledge is, ourselves to know.",OW1,oʊ,False,below,know,ADV(below),VERB(know),1,1
