@@ -22,6 +22,22 @@ def _load_rules(path=_RULES_PATH):
 
 INFLECTION_RULES = _load_rules()
 
+# Surface-to-underlying normalisation: devoiced allophones → canonical morpheme
+_SUFFIX_NORMALIZE = {
+    "PAST":      {"T": "D"},
+    "PAST_PTCP": {"T": "D"},
+    "PL":        {"S": "Z"},
+    "PRES":      {"S": "Z"},
+}
+
+
+def _normalize_suffix(phones, label):
+    """Map surface allophones to underlying morpheme form (e.g. T→D, S→Z)."""
+    mapping = _SUFFIX_NORMALIZE.get(label)
+    if not mapping:
+        return phones
+    return [mapping.get(p, p) for p in phones]
+
 
 def decompose_morphemes(word_phones, lemma_phones, pos, tag):
     """Split a word's phonemes into root morpheme + inflectional suffix.
@@ -39,10 +55,13 @@ def decompose_morphemes(word_phones, lemma_phones, pos, tag):
         if pos == rule_pos and tag == rule_tag:
             for suffix in candidates:
                 n = len(suffix)
-                if len(word_phones) > n and word_phones[:-n] == lemma_phones:
+                if (len(word_phones) > n
+                        and word_phones[-n:] == suffix
+                        and word_phones[:-n] == lemma_phones):
+                    actual = _normalize_suffix(word_phones[-n:], label)
                     return [
                         (" ".join(word_phones[:-n]), pos),
-                        (" ".join(suffix), label),
+                        (" ".join(actual), label),
                     ]
             # Rule matched but no clean suffix strip → irregular form
             return [(word_str, f"{pos}<{label}>")]
